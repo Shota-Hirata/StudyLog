@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+header{
+	height: 10vh;
+	display: flex;
+}
+
+header img{
+	height: 10vh;
+}
+
+header li{
+	list-style: none;
+}
+
+nav ul{
+	height: 10vh;
+	line-height: 40vh;
+	position: absolute;
+	right: 2%;
+}
+
+nav>ul>li>a{
+	display: inline-block;
+	height: 10vh;
+	line-height: 40vh;
+	color: white;
+}
+
+video{
+	position: fixed;
+	right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+	}
+
+.top{
+	position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
