@@ -140,10 +140,6 @@ input:nth-child(2){
 	margin-top: 3vh;
 }
 
-.container{
-	height: 200vh;
-}
-
 .home-title h2{
 	font-size: 40px;
 	margin-top: 10vh;
@@ -160,4 +156,117 @@ input:nth-child(2){
 	display: inline-block;
 	margin-top: 2vh;
 	padding: 0 6vh;
+	margin-bottom: 10vh;
+}
+
+.sec2{
+	height: 800vh;
+}
+
+.sec2 img{
+	height: 70vh;
+	margin-bottom: 2vh;
+}
+
+.ex1{
+	background-color: #f0f0f0;
+	height: 70vh;
+	margin-bottom: 2vh;
+	width: 57%;
+}
+
+.ex1 h3{
+	margin-top: 23vh;
+	font-size: 50px;
+	padding:0 5vw;
+}
+
+.ex1 p{
+	padding:0 5vw;
+	font-size: 20px;
+}
+
+.ex1 a{
+	font-size: 15px;
+}
+
+.ex2{
+	width: 57%;
+	background-color: #007ea2;
+	height: 70vh;
+	margin-left: 1%;
+}
+
+.ex2 h3{
+	margin-top: 25vh;
+	font-size: 50px;
+	padding-right: :0 5vw;
+	color: white;
+}
+
+.ex2 p{
+	font-size: 20px;
+	color: white;
+	padding-right: 10vw;
+}
+
+.ex2 a{
+	font-size: 15px;
+	color: white;
+}
+
+.ro2{
+	background-color: #007ea2;
+	height: 30vh;
+	margin-top: 10vh;
+}
+
+.ro2 h3{
+	color: white;
+	margin-top: 5vh;
+	text-align: left;
+	font-size: 35px;
+}
+
+.ro2 p{
+	color: white;
+	font-size: 20px;
+}
+
+.ro2 a{
+	color: white;
+	font-size: 15px;
+}
+
+.ro3{
+	margin-top: 10vh;
+}
+
+.ro3-div{
+	background-color: #f0f0f0;
+	height: 70vh;
+}
+
+.ro3-div p{
+	margin-top: 20vh;
+	font-size: 25px;
+	text-align: justify;
+	line-height: 45px;
+}
+
+#marta{
+	margin-top: 3vh;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 1.5vw;
+	font-weight: 600;
+	line-height: 2px;
+}
+
+#trans{
+	margin-top: 1vh;
+	font-size: 17px;
+	padding-left: 1.5vw;
+	text-align: left;
+	line-height: 3px;
 }
