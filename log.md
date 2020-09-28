@@ -44,6 +44,16 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1309831053331238912
+                      
+ ## Day6 : September 2, 2020
+
+> - **Today's Progress**: Copied Airbnb's web site.
+>
+> - **Thoughts:**: Today is easy work relativery.I used bootstrap much time and it is so usefully.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/tree/master/HTML%26CSS
+                      [Twitter] https://twitter.com/qweblog/status/1310137917650608133
+
 
 
 --format--
