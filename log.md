@@ -62,6 +62,15 @@
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/tree/master/HTML%26CSS
                       [Twitter] https://twitter.com/qweblog/status/1310577560384729088
+                      
+## Day8 : September 29, 2020
+
+> - **Today's Progress**: Fixed css for responsible design. Finished coping Airbnb site.
+>
+> - **Thoughts:**: Too use long time to make site. I haven't enough skill yet and I have to study more more more
+>
+> - **Link to work:** [Github]  https://github.com/Shota-Hirata/StudyLog/commit/35a7850b9ccb0f8f47f94d55cc7deb083fb24759
+                      [Twitter] https://twitter.com/qweblog/status/1310917166812651521
 
 
 --format--
