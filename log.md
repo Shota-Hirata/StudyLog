@@ -45,7 +45,7 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1309831053331238912
                       
- ## Day6 : September 2, 2020
+ ## Day6 : September 27, 2020
 
 > - **Today's Progress**: Copied Airbnb's web site.
 >
@@ -54,6 +54,14 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/tree/master/HTML%26CSS
                       [Twitter] https://twitter.com/qweblog/status/1310137917650608133
 
+## Day7 : September 28, 2020
+
+> - **Today's Progress**: Copied Airbnb site and fixed css for resonsible.
+>
+> - **Thoughts:**: Before starting makes me so bored but start writing makes me so exciting.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/tree/master/HTML%26CSS
+                      [Twitter] https://twitter.com/qweblog/status/1310577560384729088
 
 
 --format--
