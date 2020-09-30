@@ -63,10 +63,18 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/tree/master/HTML%26CSS
                       [Twitter] https://twitter.com/qweblog/status/1310577560384729088
 
+## Day8 : September 30, 2020
+
+> - **Today's Progress**: Uploaded created sites on server. Fixed css for responsible in site of my group. 
+>
+> - **Thoughts:**: I could't do my best because I watched drama by phone. It made me exciting and I couldn't open PC.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1311286613670940672
 
 --format--
 
-## Day : September 2, 2020
+## Day : October , 2020
 
 > - **Today's Progress**: 
 >
