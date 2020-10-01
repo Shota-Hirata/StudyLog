@@ -72,7 +72,7 @@
 > - **Link to work:** [Github]  https://github.com/Shota-Hirata/StudyLog/commit/35a7850b9ccb0f8f47f94d55cc7deb083fb24759
                       [Twitter] https://twitter.com/qweblog/status/1310917166812651521
 
-## Day8 : September 30, 2020
+## Day9 : September 30, 2020
 
 > - **Today's Progress**: Uploaded created sites on server. Fixed css for responsible in site of my group. 
 >
@@ -80,6 +80,16 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1311286613670940672
+
+## Day10 : October 1, 2020
+
+> - **Today's Progress**: Studied Javascript and jQuery by cariculum of campany which I enploied.
+>
+> - **Thoughts:**: Javascript skill is very important but I have to study a lot. It's may hard othrwise I can earn much money.
+>
+> - **Link to work:** [Github] I can't upload those file because there own campany which I emploied.
+                      [Twitter] https://twitter.com/qweblog/status/1311663647358218243
+
 
 --format--
 
