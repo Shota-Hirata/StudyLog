@@ -1,0 +1,59 @@
+@media screen and (max-width:1000px) {
+/*横表示*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-style: normal;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+h1{
+  line-height: 40vh;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+.q{
+  height: auto;
+  width: 90vw;
+  margin: 0 5vw;
+}
+
+p{
+
+  text-align: center;
+  word-break: break-all;
+}
+
+a{
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
+}
+
+/*----------------------------------------------------*/
+
+/*縦表示*/
+@media screen and (max-width:700px) {
+
+h1{
+  line-height: 20vh;
+  font-size: 1.5em
+}
+
+h2{
+  font-size: 1.2em;
+}
+}

@@ -1,0 +1,201 @@
+@media screen and (max-width:1000px) {
+/*横表示*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-style: normal;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  padding:  0;
+  width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header-logo{
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.header-logo:active{
+  opacity: 0.5;
+}
+
+.header-logo img{
+  width: 120px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  padding:  0;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 5px #000000;
+}
+
+.main{
+  height: 50px;
+}
+
+
+.container{
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  height: auto;
+  width: 100%;
+}
+
+.top-wrapper img{
+  width: 90vw;
+  height: 50vh;
+  margin: 0 5vw;
+}
+
+.top-wrapper p{
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.btn {
+  height: 30vh;
+  width: 86vw;
+  text-align: center;
+  margin: 15vh 7vw;
+  border: 2px solid #000;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+.btn:active{
+  opacity: 0.5;
+}
+
+.btn a{
+display: inline-block;
+width: 86vw;
+font-size: 30px;
+text-align: center;
+line-height: 30vh;
+color: #000;
+}
+
+.president{
+    background-color:#afa6ff;
+}
+
+.vice-president{
+  background-color:#ffd9ff;
+}
+
+.accountant{
+    background-color:#ffffb5;
+}
+
+.BKC{
+    background-color:#c1e3ff;
+}
+
+.KIC{
+  background-color:#ffb9a3;
+}
+
+.OIC{
+  background-color:#d3ffcb;
+}
+
+
+.home{
+  background-image: url(../home/pictures/IMG_3805.jpg);
+  background-position:top;
+  border-radius: 35px;
+}
+
+.SNS{
+  text-align: center;
+}
+
+.sns{
+  display: inline-block;
+  width: 40vw;
+  text-align: center;
+  margin: 40px 5vw;
+  font-size: 20px;
+  border-radius: 100px;
+  color: white;
+  float: left;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.instagram{
+  background-image: url(../pictures/instagram_23-2147821882.jpg);
+  background-size: cover;
+
+}
+
+.sns:active{
+  opacity: 0.7;
+}
+
+.footer{
+  height: 150px;
+  background-color: #000000;
+  margin-top: 50px;
+
+}
+
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+/*縦表示*/
+
+
+.top-wrapper img{
+  height: 30vh;
+}
+
+
+.btn {
+  height: 15vh;
+  margin: 10vh 7vw;
+}
+
+
+.btn a{
+  line-height: 15vh;
+}
+
+
+}
