@@ -90,6 +90,14 @@
 > - **Link to work:** [Github] I can't upload those file because there own campany which I emploied.
                       [Twitter] https://twitter.com/qweblog/status/1311663647358218243
 
+## Day11 : October2 , 2020
+
+> - **Today's Progress**: Fixed css for PC's size. studied about deploy little.
+>
+> - **Thoughts:**: I couldn't find child element over pearent element. I'll find the factor. I studied about deploy( especially AWS) but I felt too hard.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/434483ff70824277d430d6ca8a7cdda4247d2cee
+                      [Twitter] https://twitter.com/qweblog/status/1312031039930335233
 
 --format--
 
