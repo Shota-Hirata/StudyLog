@@ -99,6 +99,16 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/434483ff70824277d430d6ca8a7cdda4247d2cee
                       [Twitter] https://twitter.com/qweblog/status/1312031039930335233
 
+## Day12 : October3 , 2020
+
+> - **Today's Progress**: Fixed css for PC size. Pasted fixed css for each page.
+>
+> - **Thoughts:**: Box shadow's width counted in all width. I felt hard to check each pages.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/6a9034d8ab7fa1bb59e9dd6760a130c19437274d
+                      [Twitter]　https://twitter.com/qweblog/status/1312413721331859456
+
+
 --format--
 
 ## Day : October , 2020
