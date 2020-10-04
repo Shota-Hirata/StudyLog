@@ -110,27 +110,27 @@ width: 86vw;
 }
 
 .president{
-  background-image: url(pictures/who.png);
+  background-image: url("../pictures/who.png");
 }
 
 .vice-president{
-  background-image: url();
+  background-image: url("../pictures/who.png");
 }
 
 .accountant{
-  background-image: url();
+  background-image: url("../pictures/who.png");
 }
 
 .BKC{
-  background-image: url();
+  background-image: url("../pictures/who.png");
 }
 
 .KIC{
-  background-image: url();
+  background-image: url("../pictures/who.png");
 }
 
 .OIC{
-  background-image: url();
+  background-image: url("../pictures/who.png");
 }
 
 .SNS{
@@ -154,7 +154,7 @@ width: 86vw;
 }
 
 .instagram{
-  background-image: url(../pictures/instagram_23-2147821882.jpg);
+  background-image: url(../../pictures/instagram_23-2147821882.jpg);
   background-size: cover;
 
 }

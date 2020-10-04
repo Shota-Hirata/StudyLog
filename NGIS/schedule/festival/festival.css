@@ -23,8 +23,8 @@ a{
 }
 
 img{
-  width: 90vw;
-  margin: 5vh 5vw 0 5vw;
+  width: 70vw;
+  margin: 5vh 14vw 0 14vw;
 }
 
 
@@ -72,15 +72,15 @@ img{
 }
 
 .top-wrapper img{
-  width: 90vw;
-  height: 80vh;
-  margin: 80px 5vw 0vh 5vw;
+  width: 50vw;
+  height: 40vh;
+  margin: 80px 24vw 0vh 24vw;
 }
 
 .second-wrapper img{
-  width: 90vw;
+  width: 70vw;
   height: auto;
-  margin: 0 5vw;
+  margin: 0 14vw;
    box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
 }
 
@@ -92,7 +92,7 @@ img{
   display: inline-block;
  position: relative;
  padding: 15px 20px;
- margin: 5vh 5vw 1vh 5vw;
+ margin: 5vh 5vw 1vh 10vw;
  font-size: 18px;/*フォントサイズ*/
  color: #FFF;/*フォントカラー*/
  background: #a6d3c8;/*リボンの色*/
@@ -109,9 +109,9 @@ img{
 }
 
 table{
-  width: 90vw;
-  height: 90vh;
-  margin: 0 5vw;
+  width: 80vw;
+  height: 80vh;
+  margin: 0 10vw;
   border: 2px ridge #c0c0c0;
 }
 
@@ -122,6 +122,13 @@ th,td{
 
 th{
   background-color: #75A9FF;
+  width: 25vw;
+  font-size: 2em;
+}
+
+td{
+  font-size: 2em;
+  word-break: keep-all;
 }
 
 .balloon1-top {
@@ -150,7 +157,7 @@ th{
 .balloon1-top p {
   margin: 0;
   padding: 0;
-  font-size: 17px;
+  font-size: 27px;
 }
 
 .bal2{
@@ -163,7 +170,8 @@ th{
 }
 
 .ribbon1, .ribbon2 {
-  margin: 5vh 42vw 1vh 42vw;
+  width: 10vw;
+  margin: 5vh 45vw 1vh 45vw;
   display: inline-block;
   position: relative;
   height: 50px;/*リボンの高さ*/
@@ -202,16 +210,26 @@ th{
 
 .ribbon2{
   background-color: #f57a78;
-  margin: 8vh 42vw 1vh 42vw;
+  width: 10vw;
+  margin: 5vh 45vw 1vh 45vw;
 }
 
-.pic2 img{
-  margin: 0 5vw;
+.flex {
+  display: flex;
+  height: auto;
+  margin: 3vh 1vw;
+}
+
+.flex2 img{
+  width: 45vw;
+  margin: 0 2vw;
 }
 
 .rb1{
   background-color: #99FF66;
   color: black;
+  width: 10vw;
+  margin: 5vh 45vw 1vh 45vw;
 }
 
 
@@ -222,8 +240,8 @@ th{
 
 
 .back{
-  width: 40vw;
-  height: 60vh;
+  width: 20vw;
+  height: 30vh;
   background-image: url(../../pictures/left.gif);
   background-size: cover;
   margin: 0 1vw;
@@ -232,13 +250,13 @@ th{
 
 .back a{
   display: inline-block;
-  width:40vw;
-  height: 60vh;
+  width:20vw;
+  height: 30vh;
 }
 
 .next{
-  width: 40vw;
-  height: 60vh;
+  width: 20vw;
+  height: 30vh;
   background-image: url(../../pictures/right.gif);
   background-size: cover;
   margin: 0 1vw;
@@ -247,8 +265,8 @@ th{
 
 .next a{
   display: inline-block;
-  width:40vw;
-  height: 60vh;
+  width: 20vw;
+  height: 30vh;
 }
 
 
@@ -272,7 +290,7 @@ th{
 .go a{
 display: inline-block;
 width: 40vw;
-font-size: 35px;
+font-size: 4em;
 text-align: center;
 line-height: 30vh;
 color: #808080;
@@ -289,14 +307,13 @@ color: #808080;
   background-image: url(../pictures/year1.png) ;
   background-size: cover;
   background-position: center;
-  margin: 5vh 5vw 0 5vw;
-
+  margin: 5vh 5vw 0 4.5vw;
 }
 
 .home{
   background-image: url(../../home/pictures/IMG_3805.jpg)	;
   background-size: cover;
-  margin: 5vh 5vw 0 5vw;
+  margin: 5vh 4vw 0 4vw;
 }
 
 
@@ -310,7 +327,7 @@ color: #808080;
   display: inline-block;
   width: 40vw;
   text-align: center;
-  margin: 40px 5vw;
+  margin: 40px 4.5vw;
   font-size: 20px;
   border-radius: 100px;
   color: white;
@@ -342,6 +359,85 @@ color: #808080;
 @media screen and (max-width:1000px) {
 /*横表示*/
 
+img{
+  width: 90vw;
+  margin: 5vh 5vw 0 5vw;
+}
+
+
+.top-wrapper img{
+  width: 90vw;
+  height: 80vh;
+  margin: 80px 4vw 0vh 4vw;
+}
+
+.second-wrapper img{
+  width: 90vw;
+  margin: 0 4vw;
+}
+
+.ribbon{
+ margin: 5vh 5vw 1vh 5vw;
+}
+
+table{
+  width: 90vw;
+  height: 90vh;
+  margin: 0 5vw;
+  border: 2px ridge #c0c0c0;
+}
+
+th{
+  font-size: 1em;
+}
+
+td{
+  font-size: 1em;
+}
+
+.balloon1-top p {
+  font-size: 17px;
+}
+
+.third-wrapper img{
+  width: 90vw;
+  margin: 10vh 4vw 0 4vw;
+}
+
+.pic1 p{
+  font-size: 17px;
+}
+
+.ribbon1, .ribbon2 {
+  width: auto;
+  width: 20vw;
+  margin: 5vh 40vw 1vh 40vw;
+}
+
+
+.back{
+  width: 40vw;
+  height: 60vh;
+}
+
+.back a{
+  width: 40vw;
+  height: 60vh;
+}
+
+.next{
+  width: 40vw;
+  height: 60vh;
+}
+
+.next a{
+  width:40vw;
+  height: 60vh;
+}
+
+.go a{
+  font-size: 35px;
+
 }
 
 
@@ -364,11 +460,24 @@ table{
 }
 
 .ribbon1, .ribbon2 {
-  margin: 5vh 34vw 1vh 34vw;
+  width: 40vw;
+  margin: 5vh 30vw 1vh 30vw;
 }
 
 .ribbon2{
-  margin: 8vh 34vw 1vh 34vw;
+  width: 40vw;
+  margin: 5vh 30vw 1vh 30vw;
+}
+
+.flex{
+  display: initial;
+  margin: 0;
+}
+
+.flex img{
+  width: 90vw;
+  height: auto;
+  margin: 1vh 5vw;
 }
 
 .back{
