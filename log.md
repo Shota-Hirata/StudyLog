@@ -108,6 +108,14 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/6a9034d8ab7fa1bb59e9dd6760a130c19437274d
                       [Twitter]　https://twitter.com/qweblog/status/1312413721331859456
 
+## Day13 : October4 , 2020
+
+> - **Today's Progress**: Fixed css in my site. 
+>
+> - **Thoughts:**: I khow I have to do more but I can't do it because I'm loose. However I don't wanna be loser.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/b7db2f44de9f2f9dc24b34481d5b213ce49be5ac
+                      [Twitter]　https://twitter.com/qweblog/status/1312719732064219137
 
 --format--
 
