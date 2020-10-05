@@ -117,6 +117,16 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/b7db2f44de9f2f9dc24b34481d5b213ce49be5ac
                       [Twitter]　https://twitter.com/qweblog/status/1312719732064219137
 
+## Day14 : October5 , 2020
+
+> - **Today's Progress**: Fixed Css, studied command , Git and Node.js.
+>
+> - **Thoughts:**: Firstlly, I felt so bored and I don't wanna white code but when I write some code, I got motivated.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/1c40fb93651bd6a6b90774b98ac0248d0392be11
+                      [Twitter]　https://twitter.com/qweblog/status/1313131918683062276
+
+
 --format--
 
 ## Day : October , 2020
