@@ -126,6 +126,14 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/1c40fb93651bd6a6b90774b98ac0248d0392be11
                       [Twitter]　https://twitter.com/qweblog/status/1313131918683062276
 
+## Day15 : October6 , 2020
+
+> - **Today's Progress**: Studied PHP and JQuery;
+>
+> - **Thoughts:**: PHP is little difficult. JQuery enable to make moving in browser so it's very fun.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/1b15fe43f2dac6abdbf877ebc4d719c31ae3c46b
+                      [Twitter] https://twitter.com/qweblog/status/1313482148142288903
 
 --format--
 
