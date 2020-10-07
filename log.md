@@ -128,12 +128,21 @@
 
 ## Day15 : October6 , 2020
 
-> - **Today's Progress**: Studied PHP and JQuery;
+> - **Today's Progress**: Studied PHP and JQuery.
 >
 > - **Thoughts:**: PHP is little difficult. JQuery enable to make moving in browser so it's very fun.
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/1b15fe43f2dac6abdbf877ebc4d719c31ae3c46b
                       [Twitter] https://twitter.com/qweblog/status/1313482148142288903
+
+## Day16 : October7 , 2020
+
+> - **Today's Progress**: Sutdied JQuery and PHP.
+>
+> - **Thoughts:**: I cn make modal and add or remove class by JQuery. I feel so excited when I study JQuery. However, PHP is so difficult.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/b7cf3c2a81e3f5fa1d660f3bd12cd363bd77c3e6
+                      [Twitter]　https://twitter.com/qweblog/status/1313860205227118593
 
 --format--
 
