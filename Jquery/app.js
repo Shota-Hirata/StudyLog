@@ -78,4 +78,56 @@ $(function(){
 			$('.cursor').fadeOut(2000);
 	});
 		//必ずfunction同士は","で区切ること！
+
+
+	$('#open').click(function(){
+		//モーダルを表示させる
+		$('.modal').fadeIn(1000);
+	});
+
+	$('#close').click(function(){
+		// モーダルを閉じる
+		$('.modal').fadeOut(1000);
+	});
+
+	$('#red').click(function(){
+		// white,blackのクラスを取り除き、redのクラスを追加する。以下同様。
+		$('.addremove').removeClass('white black').addClass('red');
+	});
+
+	$('#black').click(function(){
+		$('.addremove').removeClass('red white').addClass('black');
+	});
+
+	$('#white').click(function(){
+		$('.addremove').removeClass('black red').addClass('white');
+	});
+
+	 $('.faq-list-item').click(function() {
+	 	// 関数定義
+	    var $answer = $(this).find('.answer');
+
+	    // 関数に'open'のクラスがあったら
+	    if($answer.hasClass('open')) {
+	    	// 'open'のクラスを取り外す
+	      $answer.removeClass('open');
+	      // んでからのスライドアップ
+	      $answer.slideUp();
+	      // spanのテキスト変更
+	      $(this).find('span').text('+');
+
+	    }else {
+	    	// クラスが無かったら'open'のクラスを付け足す
+	      $answer.addClass('open');
+	      // んでからのスライドダウン
+	      $answer.slideDown();
+
+	      // spanのテキスト変更
+	      $(this).find('span').text('-');
+	    }
+	  });
+
+	 $('#dont').click(function(){
+	 	alert('押すなって言ったやん！');
+	 });
 });

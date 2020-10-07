@@ -4,6 +4,44 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+  	<div id="modal-wrapper" class="modal">
+  		<div class="modal">
+			<h2 class="h2">モーダルです</h2>
+			<button type="button" id="close">閉じる</button>
+		</div>
+	</div>
+  	<button type="button" id="open">モーダルを開く</button>
+  	<button type="button" id="dont">押すな！</button>
+  	<div class="addremove red">
+  	</div>
+  	<div class="buttons">
+  	<button type="button" id="red">赤ちゃん</button>
+  	<button type="button" id="black">黒ちゃん</button>
+  	<button type="button" id="white">白ちゃん</button>
+  	</div>
+  	<ul id="faq-list">
+          <li class="faq-list-item">
+            <h3 class="question">質問1</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>解答1</p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <h3 class="question">質問2</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>解答2</p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <h3 class="question">質問3</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>解答3</p>
+            </div>
+          </li>
+        </ul>
   	<h1 id="hide">hide</h1>
   	<h1 id="show">show</h1>
   	<h1 id="fadeOut">fadeOut</h1>
@@ -41,9 +79,6 @@
   	<h1 id="cursor">ここにカーソルをあててみて</h1>
   	<h1 class="cursor">はずれ</h1>
 	<a href="https://twitter.com/intent/tweet?text=野次馬" target="_blank">リンクテキスト</a>
-
-
-
 
     <script src="jquery.min.js"></script>
     <script src="app.js"></script>
