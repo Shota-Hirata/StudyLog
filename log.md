@@ -144,6 +144,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/b7cf3c2a81e3f5fa1d660f3bd12cd363bd77c3e6
                       [Twitter]　https://twitter.com/qweblog/status/1313860205227118593
 
+## Day17 : October8 , 2020
+
+> - **Today's Progress**: Studied PHP.
+>
+> - **Thoughts:**: Today I did a lot of assignments. I think I have to get jobs to improve my skill.
+>
+> - **Link to work:** [Github]
+                      [Twitter]https://twitter.com/qweblog/status/1314192581606010881
+
 --format--
 
 ## Day : October , 2020
@@ -153,4 +162,4 @@
 > - **Thoughts:**: 
 >
 > - **Link to work:** [Github]
-                      [Twitter]
+                      [Twitter] 
