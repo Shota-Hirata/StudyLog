@@ -153,6 +153,15 @@
 > - **Link to work:** [Github]
                       [Twitter]https://twitter.com/qweblog/status/1314192581606010881
 
+## Day18 : October9 , 2020
+
+> - **Today's Progress**: Studied about git.
+>
+> - **Thoughts:**: I already understand basic commands but I have to stusy more practical commands.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1314605737683812352
+                      
 --format--
 
 ## Day : October , 2020
