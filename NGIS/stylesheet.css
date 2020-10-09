@@ -1,0 +1,75 @@
+@media screen and (max-width:10000px) {
+/*横表示*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-style: normal;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+.first{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(pictures/IMG_3809.JPG);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.second{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+h1{
+  text-align:center;
+  margin-top: 20vh;
+  color: white;
+  font-size: 5em;
+}
+.go{
+  height: 20vh;
+  width: 70vw;
+  margin: 30vh 15vw 20vh 15vw;
+  background-color: rgba(225,225,225,0.5);
+  border-radius: 100px;
+}
+
+.go a{
+  display: inline-block;
+  width: 70vw;
+  line-height: 20vh;
+  color: black;
+  text-align: center;
+  font-size: 4em;
+  text-decoration: none;
+}
+
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+/*縦表示*/
+
+.go{
+  height: 10vh;
+
+}
+
+.go a{
+  line-height: 10vh;
+}
+
+
+}

@@ -1,0 +1,267 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-style: normal;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  padding:  0;
+  width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2{
+  text-align: center;
+  font-size: 3em;
+  margin: 4vh 0;
+}
+
+p{
+  font-size: 2em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.header-logo{
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.header-logo:active{
+  opacity: 0.5;
+}
+
+.header-logo img{
+  width: 120px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-logo a{
+  display: inline-block;
+  width: 120px;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  padding:  0;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 5px #000000;
+}
+
+.main{
+  height: 700vh;
+  background-image: url(pictures/IMG_5026.JPG);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow:hidden;
+}
+
+.top-wrapper{
+  background-image: url(pictures/IMG_5001.JPG);
+  background-size: cover;
+  background-position: 0% 100%;
+  margin-top: 80px;
+  height: 90vh;
+}
+
+
+
+.message{
+  width: 90vw;
+  border: 2px solid #000;
+  height: 690vh;
+  margin: 5vh auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  overflow: scroll;
+}
+
+.from{
+  text-align: right;
+
+}
+
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.btn{
+  height: 20vh;
+  width: 40vw;
+  margin:5vh 4.5vw;
+  border: 2px solid #000;
+  box-shadow: 0px 8px #C0C0C0;
+  background-size: cover;
+  float: left;
+}
+
+.btn a{
+  display: inline-block;
+  width: 40vw;
+  text-align: center;
+  line-height: 20vh;
+  color: green;
+  font-size: 2em;
+}
+
+.btn:active{
+  opacity: 0.7;
+  position: relative;
+  top: 8px;
+  box-shadow: none;
+}
+
+.schedule{
+  background-image: url(../schedule/pictures/year1.png);
+  background-position: center;
+}
+
+.home{
+  background-image: url(../home/pictures/IMG_3805.jpg);
+  background-position:top;
+}
+
+.SNS{
+  text-align: center;
+}
+
+.sns{
+  display: inline-block;
+  width: 40vw;
+  text-align: center;
+  margin: 40px 4.5vw;
+  font-size: 20px;
+  border-radius: 100px;
+  color: white;
+  float: left;
+
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.instagram{
+  background-image: url(../pictures/instagram_23-2147821882.jpg);
+  background-size: cover;
+
+}
+
+.sns:active{
+  opacity: 0.7;
+}
+
+.footer{
+  height: 150px;
+  background-color: #000000;
+  margin-top: 50px;
+
+}
+
+/*----------------------------------------------------------*/
+
+
+@media screen and (max-width:1000px) {
+/*横表示*/
+
+  .top-wrapper{
+    margin-top: 80px;
+    height: 120vh;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+
+
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+/*縦表示*/
+
+.main{
+  height: 400vh;
+}
+
+.top-wrapper{
+  background-position: center;
+  height: 40vh;
+}
+
+.message{
+  height: 390vh;
+}
+
+.clearfix {
+  padding: 0 5vw;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1em;
+}
+
+.btn{
+  height: 10vh;
+  width: 90vw;
+  margin:5vh auto;
+}
+
+.btn a{
+  display: inline-block;
+  width: 90vw;
+  text-align: center;
+  line-height: 10vh;
+  color: green;
+  font-size: 1.5em;
+}
+
+.btn:active{
+  opacity: 0.7;
+  position: relative;
+  top: 8px;
+  box-shadow: none;
+}
+
+
+
+
+
+}

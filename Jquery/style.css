@@ -1,0 +1,82 @@
+
+#show,
+#fadeIn,
+#slideDown,
+.cursor,
+.modal{
+	display: none;
+}
+
+#modal-wrapper{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.addremove{
+	width: 50%;
+	height: 50%;
+}
+
+.red{
+	background-image: url('https://oshiete.xgoo.jp/_/bucket/oshietegoo/images/watchmain/d/542848535_5eba5d7cc52d0/ORG.jpg');
+	background-size:cover;
+	background-position: center;
+}
+
+.black{
+	background-image: url('http://kuroshiba0511.com/wp-content/uploads/2018/12/kuro2.jpg');
+	background-size:cover;
+	background-position: center;
+}
+
+.white{
+	background-image: url('https://pbs.twimg.com/media/CL4Aof5VAAAPoem?format=jpg&name=medium');
+	background-size:cover;
+	background-position: center;
+}
+
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 14px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 12px;
+  display: none;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+}
