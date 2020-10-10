@@ -162,9 +162,7 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1314605737683812352
                       
---format--
-
-## Day : October , 2020
+## Day19 : October10 , 2020
 
 > - **Today's Progress**: 
 >
@@ -172,3 +170,15 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] 
+                      
+                      
+--format--
+
+## Day : October , 2020
+
+> - **Today's Progress**: Studied PHP by Udemy.
+>
+> - **Thoughts:**: I bought Udemy curriculums about PHP&MySQL and Git. I can catch up with PHP lesson yet.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1314930455234310144
