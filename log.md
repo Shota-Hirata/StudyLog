@@ -161,20 +161,8 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1314605737683812352
-                      
-## Day19 : October10 , 2020
-
-> - **Today's Progress**: 
->
-> - **Thoughts:**: 
->
-> - **Link to work:** [Github]
-                      [Twitter] 
-                      
-                      
---format--
-
-## Day : October , 2020
+                                         
+ ## Day19 : October10 , 2020
 
 > - **Today's Progress**: Studied PHP by Udemy.
 >
@@ -182,3 +170,22 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1314930455234310144
+
+## Day20 : October11 , 2020
+
+> - **Today's Progress**: Studied about PHP.
+>
+> - **Thoughts:**: The quantitiy of curriculum is so a lot but there are not wasteful.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1315291461684875270
+--format--
+
+## Day : October , 2020
+
+> - **Today's Progress**: 
+>
+> - **Thoughts:**: 
+>
+> - **Link to work:** [Github]
+                      [Twitter] 
