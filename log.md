@@ -179,6 +179,17 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1315291461684875270
+
+## Day21 : October12 , 2020
+
+> - **Today's Progress**: Studied about PHP. specially, sending data from form.
+>
+> - **Thoughts:**: It is difficult from Rails to send data written by PHP. I feel little trouble that I have to write ";" one by one witten in PHP.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/ebb8ae35c6fc1ebc539515fbccfb84ad03471ded
+                      [Twitter] https://twitter.com/qweblog/status/1315659917835993088
+
+
 --format--
 
 ## Day : October , 2020
