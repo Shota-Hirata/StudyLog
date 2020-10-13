@@ -189,6 +189,14 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/ebb8ae35c6fc1ebc539515fbccfb84ad03471ded
                       [Twitter] https://twitter.com/qweblog/status/1315659917835993088
 
+## Day22 : October13 , 2020
+
+> - **Today's Progress**: Studied about MySQL.
+>
+> - **Thoughts:**: I think this language is easier than PHP. People who don't study programming can study it.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1315916433193226241
 
 --format--
 
