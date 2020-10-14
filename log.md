@@ -198,6 +198,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1315916433193226241
 
+## Day23 : October14 , 2020
+
+> - **Today's Progress**: created memorize application by PHP.
+>
+> - **Thoughts:**: I created this function application by Rails, but cording is very different with PHP.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/4df62697849d102742c4f801dea6ea6a36463131
+                      [Twitter] https://twitter.com/qweblog/status/1316380793124474880
+
 --format--
 
 ## Day : October , 2020
