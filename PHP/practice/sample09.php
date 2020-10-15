@@ -27,8 +27,10 @@
 		'tomato'=>'トマト',
 		'peach'=>'モモ'
 	];
+			// 配列　　　インデックス　　　バリュー
 	foreach ($fruits as $english => $japanese){
 		print($english . ':' . $japanese . "\n");
+		// インデックス、バリューは何でもいい
 	}
 ?>
 </pre>

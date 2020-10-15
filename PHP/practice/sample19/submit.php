@@ -20,6 +20,8 @@
 <pre>
 <!-- ここにプログラムを記述します -->
 <?php
+
+	// チェックボックスは配列で受け取る必要がある
 	foreach ($_POST['reserve'] as $reserve) {
 		# code...
 		print(htmlspecialchars($reserve, ENT_QUOTES) . ' ');

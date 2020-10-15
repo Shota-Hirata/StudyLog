@@ -19,9 +19,12 @@
 <h2>Practice</h2>
 <form action="submit.php" method="post" >
 	<p>
+				<!-- ↓ラジオボタン -->
 		<input type="radio" name="gender" value="male">男性
 		/
+											<!-- ↓実際に送信される値 -->
 		<input type="radio" name="gender" value="female">女性
+		<!-- フォームで入力した値はvalueに入れられて送信される -->
 	</p>
 	<input type="submit" name="送信する">
 </form>

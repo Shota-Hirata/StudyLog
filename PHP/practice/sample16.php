@@ -20,8 +20,10 @@
 <pre>
 <!-- ここにプログラムを記述します -->
 <?php
+JSON・・・XMLより短く書ける
 $file = file_get_contents('https://h2o-space.com/feed/json/');
 
+		// ↓JSONのファイルを処理する
 $json = json_decode($file);
 foreach ($json -> items as $item):
 	# code...

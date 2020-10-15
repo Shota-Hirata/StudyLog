@@ -19,7 +19,10 @@
 <h2>Practice</h2>
 <pre>
 <!-- ここにプログラムを記述します -->
+						<!-- ↓HTMLのタグを無効にさせる -->
 	お名前：<?php print(htmlspecialchars($_REQUEST['my_name'], ENT_QUOTES)); ?>
+				<!-- ↑フォームのinputのname属性を入れる -->
+		<!-- $_REQUESTならmethodがgetでもpostでも受け取れる。しかしあまり使わない方がいい -->
 </pre>
 </main>
 </body>

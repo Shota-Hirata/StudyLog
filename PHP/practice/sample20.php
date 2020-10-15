@@ -22,7 +22,9 @@
 <?php
 	$age = ２０;
 
+			// ↓全角を半角に変更する
 	$age = mb_convert_kana($age, 'n', 'UTF-8');
+			// ↓引数が数字かどうかを判断する
 	if(is_numeric($age)){
 		print($age . '歳');
 	}else{

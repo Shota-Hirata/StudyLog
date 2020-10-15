@@ -21,7 +21,10 @@
 <!-- ここにプログラムを記述します -->
 <?php
 date_default_timezone_set('Asia/Tokyo');
+				// ↓DateTimeオブジェクト
 $today = new DateTime();
+// オブジェクト・・・printファンクションのように単体の動きをするものではなくオブジェクトの中に様々なメゾットと呼ばれるファンクションのようなものが入っている。そこでまとまった処理をしている
+
 print($today->format('G時 i分 s秒'));
 ?>
 </pre>

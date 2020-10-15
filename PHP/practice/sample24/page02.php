@@ -19,8 +19,11 @@
 <h2>Practice</h2>
 <pre>
 <!-- ここにプログラムを記述します -->
+				<!-- 変数はページ間で情報を受け渡せない -->
 	変数の値：<?php print($value); ?>
 	Cookieの値：<?php print($_COOKIE['save_message']); ?>
+			<!-- ↑setcookieで作ったキーを入れる -->
+	<!-- クッキーあまり安全な保管方法ではないのでパスワードなどは入れない方がいい -->
 </pre>
 </main>
 </body>

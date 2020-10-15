@@ -20,9 +20,11 @@
 <pre>
 <!-- ここにプログラムを記述します -->
 <?php
+// XML・・・HTMLの上位互換
+				// ↓XMLのファイルをダウンロード
 $xmlTree = simplexml_load_file('https://h2o-space.com/feed/');
 foreach ($xmlTree -> channel -> item as $item):
-	# code...
+		// ダウンロードしたファイルのchannelの中のitem
 ?>
 ・<a href="<?php print($item -> link); ?>"><?php
  print($item->title);

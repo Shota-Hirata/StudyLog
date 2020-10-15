@@ -20,10 +20,16 @@
 <pre>
 <!-- ここにプログラムを記述します -->
 <?php
+// ↓どこのタイムゾーンを採用するか
 date_default_timezone_set('Asia/Tokyo');
+// G:時(24時間)
+// i:分
+// s:秒
+// l:曜日
 print('現在は' .date('G時 i分 s秒'). 'です');
+// "."を使うことで文字列の連結ができる
 ?>
 </pre>
 </main>
-</body>    
+</body>
 </html>

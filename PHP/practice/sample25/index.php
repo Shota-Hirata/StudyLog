@@ -1,7 +1,9 @@
 <?php
+// ↓セッションの設定
 session_start();
 $_SESSION['session_message'] = '値をセッションに保存しました';
 ?>
+<!-- セッションはウェブサーバーに情報が保存される -->
 <!doctype html>
 <html lang="ja">
 <head>

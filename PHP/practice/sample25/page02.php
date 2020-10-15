@@ -1,3 +1,4 @@
+		<!-- セッションを読み込む -->
 <?php session_start(); ?>
 <!doctype html>
 <html lang="ja">
@@ -20,7 +21,9 @@
 <h2>Practice</h2>
 <pre>
 <!-- ここにプログラムを記述します -->
+				<!-- セッションを取り出す -->
 <?php print($_SESSION['session_message']); ?>
+<!-- セッションはブラウザを閉じたら情報が消えてしまう -->
 </pre>
 </main>
 </body>
