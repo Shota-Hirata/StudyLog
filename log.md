@@ -207,7 +207,7 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/4df62697849d102742c4f801dea6ea6a36463131
                       [Twitter] https://twitter.com/qweblog/status/1316380793124474880
 
-## Day : October , 2020
+## Day24 : October15 , 2020
 
 > - **Today's Progress**: Reviewed basic PHP leddon.
 >
