@@ -207,6 +207,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/4df62697849d102742c4f801dea6ea6a36463131
                       [Twitter] https://twitter.com/qweblog/status/1316380793124474880
 
+## Day : October , 2020
+
+> - **Today's Progress**: Reviewed basic PHP leddon.
+>
+> - **Thoughts:**: I ground my basic PHP skill. Now, I can write code to send infomation by form.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/3eec20f1f0a4b7ea89f9afc11f9e7d49ed08b0c5
+                      [Twitter] https://twitter.com/qweblog/status/1316728042979356673
+
 --format--
 
 ## Day : October , 2020
