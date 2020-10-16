@@ -216,6 +216,14 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/3eec20f1f0a4b7ea89f9afc11f9e7d49ed08b0c5
                       [Twitter] https://twitter.com/qweblog/status/1316728042979356673
 
+## Day25 : October16 , 2020
+
+> - **Today's Progress**: Reviewed PHP and MySQL.
+>
+> - **Thoughts:**: I understood almost all curriculum but I haven't understaood about object orientation and fetch.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/53d90d3a344d746c582966732720cdfdd259e050
+                      [Twitter] https://twitter.com/qweblog/status/1317098023302750219
 --format--
 
 ## Day : October , 2020
