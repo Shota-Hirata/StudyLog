@@ -224,6 +224,16 @@
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/53d90d3a344d746c582966732720cdfdd259e050
                       [Twitter] https://twitter.com/qweblog/status/1317098023302750219
+
+## Day26 : October17 , 2020
+
+> - **Today's Progress**: Studied about PHP and MySQL.
+>
+> - **Thoughts:**: It's so difficult to understand. I have to use more time to learn.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1317470395067367431
+
 --format--
 
 ## Day : October , 2020
