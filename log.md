@@ -234,6 +234,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1317470395067367431
 
+## Day27 : October18 , 2020
+
+> - **Today's Progress**: Finished PHP and MySQL lesson.
+>
+> - **Thoughts:**: Conmleted this lesson but I haven't understood this lesson. I'll review this lesson from tommorrow.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1317860201345658882
+
 --format--
 
 ## Day : October , 2020
