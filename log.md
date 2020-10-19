@@ -243,6 +243,14 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1317860201345658882
 
+## Day28 : October19 , 2020
+
+> - **Today's Progress**: Reviwed PHP.
+>
+> - **Thoughts:**: I understood object orientation and basic PHP knowledge.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1318209799893348353
 --format--
 
 ## Day : October , 2020
