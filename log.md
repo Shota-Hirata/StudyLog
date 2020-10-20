@@ -251,6 +251,16 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1318209799893348353
+
+## Day29 : October20 , 2020
+
+> - **Today's Progress**: Reviwed PHP.
+>
+> - **Thoughts:**: I haven't understood about curriculum but I decided to don't mind it.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1318562852056240130
+
 --format--
 
 ## Day : October , 2020
