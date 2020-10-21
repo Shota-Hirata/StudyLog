@@ -25,7 +25,7 @@ for ($i=0; $i <=365; $i++) :
 	$date =strtotime('+' . $i . 'day');
 			// ↓現在の日時を出力
 	print (date('n/j(D)',$date));
-							↑第二引数でタイムスタンプを指定
+							// ↑第二引数でタイムスタンプを指定
 	print("\n");
 endfor;
 

@@ -47,7 +47,7 @@
 <article>
 			<!-- 取り出せるメモがあったら -->
 	<?php while ($memo = $memos->fetch()): ?>
-					<!-- リンク -->
+					<!--  リンク											メモの0文字目から50文字を表示する -->
 		<p><a href="memo.php?id=<?php print($memo['id']); ?>"><?php print(mb_substr($memo['memo'], 0 ,50)); ?></a></p>
 				<!-- 投稿時間 -->
 		<time><?php print($memo['created_at']); ?></time>
