@@ -261,6 +261,14 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1318562852056240130
 
+## Day30 : October21 , 2020
+
+> - **Today's Progress**: Finished reviewing about PHP.
+>
+> - **Thoughts:**: I understood 90% about this curriculum. Next is JQuery.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/f443babc8bbaac5db4f39c5f209882e1fc20af2b
+                      [Twitter] https://twitter.com/qweblog/status/1318934005056638982
 --format--
 
 ## Day : October , 2020
