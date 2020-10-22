@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>jQueryの練習</title>
+</head>
+<body>
+	<h1>focus, blur, changeイベント</h1>
+		<input type="text" value="hello">
+	<script src="../jquery.min.js"></script>
+	<script>
+		$(function(){
+			$("input").focus(function(){
+				console.log("フォーカスが当たりました");
+			});
+			$("input").blur(function(){
+				console.log("フォーカスが外れました");
+			});
+			$("input").change(function(){
+				console.log($(this).val());
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>jQueryの練習</title>
+</head>
+<body>
+	<h1>要素の表示、非表示</h1>
+	<div id="rect" style="width: 100px; height: 100px; background: red">
+	</div>
+	<script src="../jquery.min.js"></script>
+	<script>
+		$(function(){
+			// $("#rect").slideUp();
+			// $("#rect").slideDown();
+			// $("#rect").slideToggle();
+			// $("#rect").slideToggle();
+			// $("#rect").slideToggle();
+			// $("#rect").slideToggle();
+			$("#rect").fadeOut();
+			$("#rect").fadeIn();
+			$("#rect").fadeTo(1000, 0.3);
+		});
+	</script>
+</body>
+</html>

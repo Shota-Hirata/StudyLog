@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<title>jQueryの練習</title>
+</head>
+<body>
+  <div id="compile">
+	<h1 id="title1" class="title">コンパイル言語</h1>
+	<ul>
+		<li id="java">Java</li>
+		<li id="c">C
+			<ul>
+				<li id="cpp">C++</li>
+				<li id="cs">C#</li>
+			</ul>
+		</li>
+		<li id="objective-c">ObjectiveC</li>
+	</ul>
+  </div>
+  <div id="script">
+	<h1 id="title2" class="title">スクリプト言語</h1>
+	<ul>
+		<li id="js">JavaScript</li>
+		<li id="ruby">Ruby</li>
+		<li id="python">Python</li>
+		<li id="php">PHP</li>
+		<li id="perl">perl</li>
+	</ul>
+  </div>
+	<script src="../jquery.min.js"></script>
+	<script>
+		$(function(){
+			// (スペース)
+			// ある要素の配下の要素
+			// $("#compile ul").css("color", "red");
+			// >
+			// ある要素の直下の要素
+			// $("#compile > ul").css("color", "blue");
+			// +
+			// ある要素の次の要素
+			// $("#ruby + li").css("color", "green");
+			// ~
+			// ある要素以降の要素
+			 // $("#ruby ~ li").css("color", "yellow");
+		});
+	</script>
+</body>
+</html>

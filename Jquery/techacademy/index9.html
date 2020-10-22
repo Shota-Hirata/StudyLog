@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>jQueryの練習</title>
+</head>
+<body>
+	<h1>要素の表示、非表示</h1>
+	<div id="rect" style="width: 100px; height: 100px; background: red">
+	</div>
+	<script src="../jquery.min.js"></script>
+	<script>
+		$(function(){
+			// slow = 600ms
+			// fast = 200ms
+			// $("#rect").hide("slow");
+			// $("#rect").show("fast");
+			$("#rect").toggle(1000);
+			$("#rect").toggle(1000);
+			$("#rect").toggle(1000);
+			$("#rect").toggle(1000);
+			$("#rect").toggle(1000);
+			$("#rect").toggle(1000);
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>jQueryの練習</title>
+</head>
+<body>
+	<h1>click, hoverイベント</h1>
+	<ul>
+		<li>JavaScript</li>
+		<li>PHP</li>
+		<li>Perl</li>
+		<li>Ruby</li>
+	</ul>
+	<script src="../jquery.min.js"></script>
+	<script>
+		$(function(){
+		// 	$("li:eq(1)").click(function(){
+		// 	alert("クリックされました");
+		// });
+		$("h1").hover(
+			function(){
+			   console.log("マウスが乗りました");
+			},
+			function(){
+			   console.log("マウスが外れました");
+			}
+			);
+		});
+	</script>
+</body>
+</html>
