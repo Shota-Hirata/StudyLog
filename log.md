@@ -279,7 +279,16 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/4c91167e1056d9549cb324a2d417311fe5aa3d9f
                       [Twitter] https://twitter.com/qweblog/status/1319314046496116737
 
+## Day : October , 2020
 
+> - **Today's Progress**: Studied jQuery.
+>
+> - **Thoughts:**: I can't get new knowledge. I hope for tomorrow.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/3beccb90b5da2d30784d4b1a31fe3040817dce36
+                      [Twitter] https://twitter.com/qweblog/status/1319604043946156035
+                      
+                      
 --format--
 
 ## Day : October , 2020
