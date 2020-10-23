@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+	<ul id="list">
+		<!-- list items -->
+	</ul>
+	<a id="click-me" href="">Click Hello!</a>
+
+	<form id="my-form">
+		<p><input id="my-input" type="text"></p>
+		<p><input type="submit"></p>
+	</form>
+
+	<!-- Javascript Bellow this line -->
+	<script>
+
+		var myList = [];
+
+		function myFunction(message) {
+			myList.push(message);
+			var output = "";
+			for (var i in myList){
+				console.log(myList[i]);
+				output += "<li>"+myList[i]+"</li>";
+		}
+
+		$("#list").html(output);
+			}
+
+		myFunction("eat apples");
+
+		$("#click-me").click(function(event){
+			event.preventDefault();
+			myFunction("Hello World");
+		});
+
+		$("#my-form").submit(function(event){
+			event.preventDefault();
+			var textInput = $("#my-input").val();
+			myFunction(textInput);
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+	<h1 id="title">???</h1>
+	<a id="click-me" href="">Click Hello!</a>
+
+	<!-- Javascript Bellow this line -->
+	<script>
+		$("#click-me").click(function(event){
+			event.preventDefault();
+			$("#title").html("Hello World");
+		});
+	</script>
+</body>
+</html>
