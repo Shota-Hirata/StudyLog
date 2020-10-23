@@ -279,7 +279,7 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/4c91167e1056d9549cb324a2d417311fe5aa3d9f
                       [Twitter] https://twitter.com/qweblog/status/1319314046496116737
 
-## Day : October , 2020
+## Day32 : October23 , 2020
 
 > - **Today's Progress**: Studied jQuery.
 >
