@@ -297,7 +297,14 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1319977617114607616
 
+## Day34 : October25 , 2020
 
+> - **Today's Progress**: Making jQuery web app.
+>
+> - **Thoughts:**: It's hard to create app what I wan't to move correctlly.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1320368981413220353
 --format--
 
 ## Day : October , 2020
