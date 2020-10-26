@@ -1,0 +1,27 @@
+
+.quiz{
+	margin-top: 10vh;
+	margin-left: 25vw;
+}
+
+
+img{
+	width: 25vw;
+	height: 30vh;
+}
+
+
+@media screen and (max-width: 600px){
+
+	.quiz{
+		margin-top: 10vh;
+		margin-left: 25vw;
+	}
+
+
+	img{
+		width: 25vw;
+		height: 20vh;
+	}
+
+}

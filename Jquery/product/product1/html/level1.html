@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<title>レベル1</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/level1.css">
+</head>
+<body>
+	<button type="button"><a href="#" id="top">タイトルに戻る</a></button>
+	<h1>Level1:仲間はずれはどれ？</h1>
+	<div class="quiz">
+		<img src="" id="0">
+		<img src="" id="1">
+		<img src="" id="2">
+		<img src="" id="3">
+	</div>
+	<div id="modal-wrapper" class="modal">
+		<div id="failure">
+			<h2>ゲームオーバー</h2>
+			<div class="btn">
+				<a href="#" onclick="location.reload();">やり直す</a>
+			</div>
+			<div class="btn">
+				<a href="#">タイトルに戻る</a>
+			</div>
+		</div>
+		<div id="success">
+			<h2>クリア！</h2>
+			<div class="btn">
+				<a href="level2.html">次に進む</a>
+			</div>
+			<div class="btn">
+				<a href="#" onclick="location.reload();">やり直す</a>
+			</div>
+			<div class="btn">
+				<a href="#">タイトルに戻る</a>
+			</div>
+		</div>
+	</div>
+	<!-- <button type="button" onclick="location.reload();">再読み込み</button> -->
+	<!-- <button type="button" id="cheat">裏技</button> -->
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/level1.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

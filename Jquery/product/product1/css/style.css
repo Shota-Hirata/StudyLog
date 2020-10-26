@@ -1,0 +1,114 @@
+#success,
+#failure,
+.modal{
+	display: none;
+}
+
+#top{
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+	text-align: center;
+	margin-top: 10vh;
+}
+
+#modal-wrapper{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+#success {
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 43vw;
+  height: auto;
+  text-align: center;
+}
+
+#failure {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
+
+.btn{
+	background-color: yellowgreen;
+	width: 10vw;
+	border:solid;
+	float:left;
+	height: 5vh;
+	margin-left: 3vw;
+}
+
+.btn a{
+	color: black;
+	text-decoration: none;
+	line-height: 5vh;
+}
+
+@media screen and (max-width: 600px){
+
+	h1{
+		font-size: 25px;
+	}
+
+	#success {
+	  position: absolute;
+	  top: 20%;
+	  left: 10%;
+	  background-color: #e6ecf0;
+	  padding: 20px 0 40px;
+	  border-radius: 10px;
+	  width: 80vw;
+	  height: auto;
+	  text-align: center;
+	}
+
+	#failure {
+	  position: absolute;
+	  top: 20%;
+	  left: 10%;
+	  background-color: #e6ecf0;
+	  padding: 20px 0 40px;
+	  border-radius: 10px;
+	  width: 80vw;
+	  height: auto;
+	  text-align: center;
+	}
+
+	.btn{
+		background-color: yellowgreen;
+		width: 50vw;
+		border:solid;
+		float:none;
+		height: 10vh;
+		margin-left: 15vw;
+		margin-top: 5vh;
+	}
+
+	.btn a{
+		color: black;
+		text-decoration: none;
+		line-height: 10vh;
+		font-size: 1.5em;
+	}
+}
