@@ -17,8 +17,12 @@ $(function(){
 		}
 	});
 
+	$('#hint').click(function(){
+		$('.answer').fadeOut(3000).fadeIn(3000);
+	});
+
 	$('#cheat').click(function(){
-		$('img').not('.answer').fadeOut(3000);
+		$('.fails').fadeTo(3000, 0.3);
 	});
 
 

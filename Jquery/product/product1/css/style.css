@@ -4,14 +4,27 @@
 	display: none;
 }
 
+button{
+	background-color: yellowgreen;
+	border:solid;
+	height: 3vh;
+	border-radius: 10px;
+}
+
 #top{
 	text-decoration: none;
 	color: black;
 }
 
+#hint,
+#cheat{
+	float: right;
+	margin-right: 1vw;
+}
+
 h1{
 	text-align: center;
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 
 #modal-wrapper{
@@ -67,8 +80,15 @@ h1{
 
 @media screen and (max-width: 600px){
 
+	#hint,
+	#cheat{
+		float: right;
+		margin-right: 2vw;
+	}
+
 	h1{
 		font-size: 25px;
+		margin-top: 5vh;
 	}
 
 	#success {

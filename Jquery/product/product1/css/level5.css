@@ -1,0 +1,33 @@
+
+h1{
+	margin-top: 5vh;
+}
+
+.quiz{
+	margin: 4vh 5vw;
+	width: 90vw;
+}
+
+
+img{
+	width: 2vw;
+	height: 3vh;
+}
+
+
+@media screen and (max-width: 600px){
+
+	.quiz{
+		margin:3vh 10vw 10vw 10vw;
+		width: 80vw;
+		height: auto;
+		line-height: 2vh;
+	}
+
+
+	img{
+		width: 2.4vw;
+		height: 1.5vh;
+	}
+
+}

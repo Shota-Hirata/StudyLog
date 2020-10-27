@@ -1,0 +1,60 @@
+
+#hint,
+#cheat{
+	float: right;
+	margin-right: 1vw;
+}
+
+h1{
+	margin-top: 2vh;
+}
+
+.quiz{
+	margin: 2vh 5vw;
+	width: 90vw;
+	line-height: 0.5em;
+}
+
+
+.answer,
+.fails{
+	display: inline-block;
+	font-size: 0.5em;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+
+@media screen and (max-width: 600px){
+
+	#hint,
+	#cheat{
+		float: right;
+		margin-left: 2vw;
+	}
+
+	.quiz{
+		margin:3vh 3vw 10vw 3vw;
+		width: 90vw;
+		height: auto;
+		line-height: 0.5em;
+	}
+
+
+	.answer,
+	.fails{
+		display: inline-block;
+		font-size: 0.1px;
+	}
+
+	#success {
+	  top: 10%;
+	}
+
+	p{
+		font-size: 0.9em;
+	}
+
+}

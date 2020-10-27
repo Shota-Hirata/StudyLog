@@ -1,18 +1,18 @@
 $(function(){
 
-	var num = Math.floor( Math.random() * 24 )
+	var num = Math.floor( Math.random() * 99 )
 
-	for (var i = 0; i <= 24; i++) {
+	for (var i = 0; i <= 99; i++) {
 
 		if(num == i){
 			$('<img>').attr({
-			src: '../img/me.png',
+			src: '../img/ro.png',
 			id: i,
 			class: 'answer'
 		}).appendTo('.quiz');
 		}else{
 			$('<img>').attr({
-			src: '../img/nu.png',
+			src: '../img/ru.png',
 			id: i,
 			class: 'fails'
 		}).appendTo('.quiz');

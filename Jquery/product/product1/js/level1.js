@@ -5,9 +5,17 @@ $(function(){
 	for (var i = 0; i <= 3; i++) {
 
 		if(num == i){
-			$("#" + i).attr('src', '../img/ha.png').attr('class', 'answer');
+			$('<img>').attr({
+			src: '../img/ke.png',
+			id: i,
+			class: 'answer'
+		}).appendTo('.quiz');
 		}else{
-			$("#" + i).attr('src', '../img/ke.png');
+			$('<img>').attr({
+			src: '../img/ha.png',
+			id: i,
+			class: 'fails'
+		}).appendTo('.quiz');
 		}
 	}
 

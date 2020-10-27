@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<title>レベル1</title>
+	<title>レベル4</title>
 	<meta charset="utf-8">
 	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../css/level1.css">
+	<link rel="stylesheet" type="text/css" href="../css/level4.css">
 </head>
 <body>
 	<button type="button"><a href="index.html" id="top">タイトルに戻る</a></button>
 	<button type="button" id="cheat">大ヒント</button>
 	<button type="button" id="hint">ヒント</button>
 	<button type="button" onclick="location.reload()"　id="reload">再読み込み</button>
-	<h1>Level1:仲間はずれはどれ？</h1>
+	<h1>Level4:仲間はずれはどれ？</h1>
 	<div class="quiz">
 	</div>
 	<div id="modal-wrapper" class="modal">
 		<div id="failure">
 			<h2>ゲームオーバー</h2>
 			<div class="btn">
-				<a onclick="location.reload();">やり直す</a>
+				<a href="#" onclick="location.reload();">やり直す</a>
 			</div>
 			<div class="btn">
 				<a href="index.html">タイトルに戻る</a>
@@ -28,7 +28,7 @@
 		<div id="success">
 			<h2>クリア！</h2>
 			<div class="btn">
-				<a href="level2.html">次に進む</a>
+				<a href="level5.html">次に進む</a>
 			</div>
 			<div class="btn">
 				<a href="#" onclick="location.reload();">やり直す</a>
@@ -38,8 +38,10 @@
 			</div>
 		</div>
 	</div>
+	<!-- <button type="button" onclick="location.reload();">再読み込み</button> -->
+	<!-- <button type="button" id="cheat">裏技</button> -->
 	<script src="../js/jquery.min.js"></script>
-	<script src="../js/level1.js"></script>
+	<script src="../js/level4.js"></script>
     <script src="../js/script.js"></script>
 </body>
 </html>
