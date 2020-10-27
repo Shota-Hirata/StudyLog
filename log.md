@@ -305,6 +305,16 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1320368981413220353
+
+## Day35 : October26 , 2020
+
+> - **Today's Progress**: Made original web app.
+>
+> - **Thoughts:**: This app's quality is higher than I thought. I'll finish making by tomorrow.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/799d4e687eb63d53e95ba02cabebe784ab9832bf
+                      [Twitter] https://twitter.com/qweblog/status/1320728134849720320
+
 --format--
 
 ## Day : October , 2020
