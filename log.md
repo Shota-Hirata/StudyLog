@@ -315,6 +315,16 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/799d4e687eb63d53e95ba02cabebe784ab9832bf
                       [Twitter] https://twitter.com/qweblog/status/1320728134849720320
 
+## Day36 : October27 , 2020
+
+> - **Today's Progress**: Finished making web app.
+>
+> - **Thoughts:**: I made photo hunt app. It's much better than I thought.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/da8c0e06f7f530bdbfa0c98d5c094ec2660cd53e
+                      [Twitter] https://twitter.com/qweblog/status/1321110493268828161
+
+
 --format--
 
 ## Day : October , 2020
