@@ -324,6 +324,14 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/da8c0e06f7f530bdbfa0c98d5c094ec2660cd53e
                       [Twitter] https://twitter.com/qweblog/status/1321110493268828161
 
+## Day37 : October28 , 2020
+
+> - **Today's Progress**: Wrote blog about web app which I made.
+>
+> - **Thoughts:**: I understood deeply about jQuery to write blog about my product.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1321449515736420354
 
 --format--
 
