@@ -333,6 +333,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1321449515736420354
 
+## Day38 : October29 , 2020
+
+> - **Today's Progress**: Studied about phthon.
+>
+> - **Thoughts:**: I felt python is as easy as ruby. Weiting quantities are few so everyone can learn it.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1321793740181176321
+
 --format--
 
 ## Day : October , 2020
