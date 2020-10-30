@@ -342,6 +342,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1321793740181176321
 
+## Day39 : October30 , 2020
+
+> - **Today's Progress**: Wrote about how to upload your code file to internet by mixhost in my blog. 
+>
+> - **Thoughts:**: I'll never get upset when I upload to internet by mixhost.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1322175485623721985
+
 --format--
 
 ## Day : October , 2020
