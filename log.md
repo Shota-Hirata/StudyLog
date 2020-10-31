@@ -351,9 +351,18 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1322175485623721985
 
+## Day40 : October31 , 2020
+
+> - **Today's Progress**: Studied PHP and SQL.
+>
+> - **Thoughts:**: I went to USJ today so I can't take study time. I have to study more from tomorrow.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1322527582860963842
+
 --format--
 
-## Day : October , 2020
+## Day : November , 2020
 
 > - **Today's Progress**: 
 >
