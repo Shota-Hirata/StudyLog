@@ -360,6 +360,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1322527582860963842
 
+## Day41 : November1 , 2020
+
+> - **Today's Progress**: Studied about how to found wordpress and about SEO.
+>
+> - **Thoughts:**: These knowledge are so profound. Therefore, I have to continue studing.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1322883801194790914
+
 --format--
 
 ## Day : November , 2020
