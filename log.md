@@ -369,6 +369,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1322883801194790914
 
+## Day42 : November2 , 2020
+
+> - **Today's Progress**: Studied about how to make WordPress theme.
+>
+> - **Thoughts:**: I though it's difficult to make it before read website about WordPress but it seems to be easier than I thought. 
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1323284738237329413
+
 --format--
 
 ## Day : November , 2020
