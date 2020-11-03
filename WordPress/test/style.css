@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*
+Theme Name: test
+Author:Shota
+Description:テスト用のテーマ?
+Version:1.0
+*/
+
+h2{
+	font-size: 100px;
+	color: red;
+}
+
+img{
+	width: 500px;
+}
