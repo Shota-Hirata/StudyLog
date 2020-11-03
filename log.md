@@ -378,6 +378,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1323284738237329413
 
+## Day43 : November3 , 2020
+
+> - **Today's Progress**: Made local WordPress environment and created original theme.
+>
+> - **Thoughts:**: I't was easire than I thought. I'd like to finish making original theme by 10 days.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog
+                      [Twitter] https://twitter.com/qweblog/status/1323660421509738497
+
 --format--
 
 ## Day : November , 2020
