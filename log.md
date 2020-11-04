@@ -387,6 +387,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog
                       [Twitter] https://twitter.com/qweblog/status/1323660421509738497
 
+## Day : November , 2020
+
+> - **Today's Progress**: Made original wordpress theme.
+>
+> - **Thoughts:**: I can't take enough time today. I have to sleep earlier.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/d14beb56fe042eef712e1bfed386936304ddc220
+                      [Twitter] https://twitter.com/qweblog/status/1323981817532227584
+
 --format--
 
 ## Day : November , 2020
