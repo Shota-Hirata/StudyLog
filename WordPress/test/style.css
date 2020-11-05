@@ -4,6 +4,19 @@ Theme Name: test
 Author:Shota
 Description:テスト用のテーマ?
 Version:1.0
+
+------------------------------
+
+Theme Name:	  テーマ名
+Theme URI: 	  テーマのアドレス
+Author: 	  テーマの作者名
+Author URI:	  テーマ作者のWebサイトのアドレス
+Description:  テーマの説明・紹介文
+Version: 	  テーマのバージョン
+License:	  テーマに適用されるライセンス
+License URI:  ライセンスの内容が記載されたWebページのアドレス。またはライセンス条文が記載されたファイルへのパス
+Tags:		  テーマの特徴を示すタグ
+Text Domain:  テーマを国際化する際に必要な識別用の文字列
 */
 
 h2{
