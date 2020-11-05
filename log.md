@@ -387,7 +387,7 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog
                       [Twitter] https://twitter.com/qweblog/status/1323660421509738497
 
-## Day : November , 2020
+## Day44 : November4 , 2020
 
 > - **Today's Progress**: Made original wordpress theme.
 >
@@ -395,6 +395,15 @@
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/d14beb56fe042eef712e1bfed386936304ddc220
                       [Twitter] https://twitter.com/qweblog/status/1323981817532227584
+
+## Day45 : November5 , 2020
+
+> - **Today's Progress**: Made original wordpress theme.
+>
+> - **Thoughts:**: I have headache now. I'll go to bed eary and I study a lot tomorrow too.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/7a86530177e6be9122515b920ebc61e63d232bb4
+                      [Twitter] https://twitter.com/qweblog/status/1324330145805578242
 
 --format--
 
