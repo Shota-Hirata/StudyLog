@@ -405,6 +405,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/7a86530177e6be9122515b920ebc61e63d232bb4
                       [Twitter] https://twitter.com/qweblog/status/1324330145805578242
 
+## Day46 : November6 , 2020
+
+> - **Today's Progress**: Made original wordpress theme.
+>
+> - **Thoughts:**: Bootstrap4 isn't changed from 3 so much.I'd like to finish making by 4 days. 
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1324717612585033728
+
 --format--
 
 ## Day : November , 2020
