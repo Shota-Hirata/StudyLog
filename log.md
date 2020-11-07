@@ -416,11 +416,11 @@
 
 --format--
 
-## Day : November , 2020
+## Day47 : November7 , 2020
 
-> - **Today's Progress**: 
+> - **Today's Progress**: Made original wordpress theme.
 >
-> - **Thoughts:**: 
+> - **Thoughts:**: progress percentage about 30%. I'll do to 50% by tomorrow.
 >
 > - **Link to work:** [Github]
-                      [Twitter] 
+                      [Twitter] https://twitter.com/qweblog/status/1325045091610734592
