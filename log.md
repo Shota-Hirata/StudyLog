@@ -414,8 +414,6 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1324717612585033728
 
---format--
-
 ## Day47 : November7 , 2020
 
 > - **Today's Progress**: Made original wordpress theme.
@@ -424,3 +422,23 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1325045091610734592
+
+## Day48 : November8 , 2020
+
+> - **Today's Progress**: Made original wordpress theme.
+>
+> - **Thoughts:**: I noticed that I have a lot of task tu finish creating my theme.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1325437384482156544
+
+--format--
+
+## Day : November , 2020
+
+> - **Today's Progress**: 
+>
+> - **Thoughts:**:
+>
+> - **Link to work:** [Github]
+                      [Twitter] 
