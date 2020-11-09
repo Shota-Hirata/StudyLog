@@ -432,6 +432,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1325437384482156544
 
+## Day49 : November9 , 2020
+
+> - **Today's Progress**: Made original wordpress theme.
+>
+> - **Thoughts:**: I7M worried about I can really finish creating by next Friday.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1325809935423172608
+
 --format--
 
 ## Day : November , 2020
