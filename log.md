@@ -441,6 +441,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1325809935423172608
 
+## Day50 : November10 , 2020
+
+> - **Today's Progress**: Made original wordpress theme.
+>
+> - **Thoughts:**: I made related article part. Maybe pagenation can't be made by friday.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1326168601557041154
+
 --format--
 
 ## Day : November , 2020
