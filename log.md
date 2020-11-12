@@ -459,6 +459,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1326532737948266497
 
+## Day52 : November12 , 2020
+
+> - **Today's Progress**: Made original wordpress theme.
+>
+> - **Thoughts:**: I fainally added pagenation. Additionally, I add displaying prevew and next artile in single page.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1326876329539588102
+
 --format--
 
 ## Day : November , 2020
