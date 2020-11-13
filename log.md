@@ -468,6 +468,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1326876329539588102
 
+## Day53 : November13 , 2020
+
+> - **Today's Progress**: Made original wordpress theme.
+>
+> - **Thoughts:**: I thought my theme doesn't have probrem for design. However, My theme has a lot of probrem......
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1327256407771471873
+
 --format--
 
 ## Day : November , 2020
