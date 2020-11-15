@@ -477,6 +477,24 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1327256407771471873
 
+## Day54 : November14 , 2020
+
+> - **Today's Progress**: Studied about JavaScript.
+>
+> - **Thoughts:**: I went wakayama to day so I couldn't study a lot.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1327633878786338817
+
+## Day55 : November15 , 2020
+
+> - **Today's Progress**: Modified my WordPress theme.
+>
+> - **Thoughts:**: Image's width and teight were been modified. I set my blog to read normally.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1327957093140238336
+
 --format--
 
 ## Day : November , 2020
