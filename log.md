@@ -495,6 +495,14 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1327957093140238336
 
+## Day56 : November16 , 2020
+
+> - **Today's Progress**: Copied Keio hospital's site.
+>
+> - **Thoughts:**: I was disappointed of my skill. I have to write more more more code.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/bc2d9d78f2f32163666cfcbc2eb278505ad3f899
+                      [Twitter] https://twitter.com/qweblog/status/1328342744884867077
 --format--
 
 ## Day : November , 2020
