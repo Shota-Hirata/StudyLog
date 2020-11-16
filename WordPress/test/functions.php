@@ -27,7 +27,7 @@
 	// CSSを読み込むための関数
 	function css_scripts(){
 		wp_enqueue_style("base-style",
-			get_stylesheet_uri(),
+			get_stylesheet_uri().'style.css',
 			array(),
 			"1.0",
 			"all"
@@ -78,6 +78,7 @@
 			"name" => "サイドバーウィジェットエリア", // 追加したウィジェット一覧の名前
 			"id" => "sidebar-widget", // 追加したウィジェット一覧のid
 			"description" => "ブログページのサイドバーに表示", // 追加したウィジェット一覧の説明
+			"before_widget" => "<div>", // ウィジェットの閉じタグ
 			"after_widget" => "</div>", // ウィジェットの閉じタグ
 			"before_title" => '<h2 class="c-widget_title">', //ウィジェットタイトルの開始タグ
 			"after_title" => "</h2>", // ウィジェットタイトルの閉じタグ

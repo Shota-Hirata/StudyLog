@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col, .col-1, .col-10,
+.col-11, .col-12, .col-2,
+.col-3, .col-4, .col-5,
+.col-6, .col-7, .col-8,
+.col-9, .col-auto, .col-lg,
+.col-lg-1, .col-lg-10,
+.col-lg-11, .col-lg-12,
+.col-lg-2, .col-lg-3,
+.col-lg-4, .col-lg-5,
+.col-lg-6, .col-lg-7,
+.col-lg-8, .col-lg-9,
+.col-lg-auto, .col-md,
+.col-md-1, .col-md-10,
+.col-md-11, .col-md-12,
+.col-md-2, .col-md-3,
+.col-md-4, .col-md-5,
+.col-md-6, .col-md-7,
+.col-md-8, .col-md-9,
+.col-md-auto, .col-sm,
+.col-sm-1, .col-sm-10,
+.col-sm-11, .col-sm-12,
+.col-sm-2, .col-sm-3,
+.col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7,
+.col-sm-8, .col-sm-9,
+.col-sm-auto, .col-xl,
+.col-xl-1, .col-xl-10,
+.col-xl-11, .col-xl-12,
+.col-xl-2, .col-xl-3,
+.col-xl-4, .col-xl-5,
+.col-xl-6, .col-xl-7,
+.col-xl-8, .col-xl-9,
+.col-xl-auto{
+	padding-right: 10px;
+    padding-left: 10px;
+}
+
+.attention{
+	height: 10vh;
+	text-align: center;
+	border-bottom: solid 0.1em #000;
+}
+
+.attention p{
+	color: red;
+	line-height: 10vh;
+}
+
+a{
+	text-decoration: underline;
+}
+
+header{
+	text-align: center;
+	padding-top: 2vh;
+}
+
+.header-a a{
+	font-size: 0.75em;
+	padding: 0;
+	color: #000;
+}
+
+.header-a<div{
+	text-align: center;
+}
+
+.header-a a:hover{
+	text-decoration: none;
+}
+
+.header-a:nth-of-type(3){
+	padding: 0;
+}
+
+.header-a:nth-of-type(2):before,
+.header-a:nth-of-type(5):before{
+	content: "|";
+	color: gainsboro;
+}
+
+.header-a:nth-of-type(3):before,
+.header-a:nth-of-type(6):before{
+	content: "|";
+	color: gainsboro;
+}
+
+.header-form{
+	padding-top: 2vh;
+}
+
+.header-form-input{
+	width: 18vw;
+	height: 4vh;
+}
+
+.text{
+	border: none;
+	line-height: 3vh;
+}
+
+.text:focus{
+  	outline: none;
+}
+
+.submit{
+	margin-top: 1vh;
+	margin-left: 3vw;
+}
+
+.submit:focus{
+	outline: none;
+}
+
+.letter{
+	padding-top: 1vh;
+}
+
+.letter>div{
+	height: 5vh;
+	padding: 0.5vh 5px;
+}
+
+
+
+
+.letter>div>p{
+	font-size: 0.75em;
+}
+
+.letter>div>a{
+	font-size: 0.7em;
+	color: gray;
+	text-decoration: none;
+}
+
+.letter>div>a:hover{
+	text-decoration: underline;
+}
+
+.global-nav{
+	background-color: #000055;
+	height: 6vh;
+	margin-top: 3vh;
+	text-align: center;
+}
+
+.nav-left{
+	margin-right: 5vw;
+}
+
+.global-nav a{
+	color: white;
+	line-height: 6vh;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.global-nav>div>div:hover{
+	background-color: red;
+}
+
+.global-nav>div>div>a>p:before{
+	content:"|";
+	color: white;
+	margin-right: 6vw;
+}
+
+.global-nav>div>div:last-of-type>a>p:after{
+	content:"|";
+	color: white;
+	margin-left: 5vw;
+}
