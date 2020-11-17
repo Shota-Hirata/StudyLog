@@ -172,13 +172,22 @@ header{
 	height: 6vh;
 }
 
+.global-nav>ul>li>a>p{
+	margin-bottom: 0;
+}
+
 .global-nav>ul>p{
 	color: white;
 	line-height: 6vh;
+	margin-bottom: 0;
 }
 
-.tab1,.tab2{
+.tab1,.tab2,.tab3{
 	display: none;
+	z-index: 100;
+	background-color: white;
+	margin-top: 0;
+	padding-top: 2vh;
 }
 
 .tab>dl>dt{
@@ -279,7 +288,7 @@ header{
 	line-height: 4vh;
 	content: "";
 	display: inline-block;
-	background-image: url("../img/sprites-se8687b0ed3.png");
+	background-image: url(../img/sprites-se8687b0ed3.png);
 	background-repeat: no-repeat;
 	width: 18px;
 	height: 18px;
@@ -296,21 +305,29 @@ header{
 	text-align: left;
 }
 
-.container{
-	height: 50vh;
+.bg{
+	height: 70vh;
+	margin-top: 0vh;
+	z-index: -10;
+	background-position: left;
+	background-size: no-repeat;
 }
 
 .main{
-	height: 50vh;
+	width: 100%;
+	margin:0 auto;
+	padding: 0;
+}
+
+.main-container{
+	width: 100vw;
+	height: 60vh;
+	z-index: -10;
+	margin-left: 15vw;
 }
 
 .top-img{
-	height: 50vh;
-}
-
-.bg{
-	height: 50vh;
-	margin-top: 5vh;
+	z-index: -10;
 }
 
 .bg1{
