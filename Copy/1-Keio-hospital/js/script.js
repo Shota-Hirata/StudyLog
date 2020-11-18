@@ -20,4 +20,32 @@ $(function(){
 	  },function(){
 	  	$('.tab3').fadeOut(100);
 	});
+
+	$('.info1').click(function(){
+		$(this).addClass('click');
+		$('.info2').removeClass('click');
+		$('.info3').removeClass('click');
+		$('.info-content1').css('display','block');
+		$('.info-content2').css('display','none');
+		$('.info-content3').css('display','none');
+	});
+
+	$('.info2').click(function(){
+		$(this).addClass('click');
+		$('.info1').removeClass('click');
+		$('.info3').removeClass('click');
+		$('.info-content2').css('display','block');
+		$('.info-content1').css('display','none');
+		$('.info-content3').css('display','none');
+	});
+
+	$('.info3').click(function(){
+		$(this).addClass('click');
+		$('.info1').removeClass('click');
+		$('.info2').removeClass('click');
+		$('.info-content3').css('display','block');
+		$('.info-content1').css('display','none');
+		$('.info-content2').css('display','none');
+	});
+
 });
