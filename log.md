@@ -513,6 +513,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/729d4c0346baf94fd9243c0e84a8576bcb0c4439
                       [Twitter] https://twitter.com/qweblog/status/1328696958039465984
 
+## Day58 : November18 , 2020
+
+> - **Today's Progress**: Copied Keio hospital's site.
+>
+> - **Thoughts:**: Too many code. I have to more quickly but I can't finish iby this year.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/82058a3b1ef01a23a4fd2a3559b97e54921c6d7f
+                      [Twitter] https://twitter.com/qweblog/status/1329063720216002560
+
 --format--
 
 ## Day : November , 2020
