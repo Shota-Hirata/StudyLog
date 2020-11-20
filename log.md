@@ -531,6 +531,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/15f78c36047e2f55bf60d193cd62f48b5353bd1a
                       [Twitter] https://twitter.com/qweblog/status/1329407835105443841
 
+## Day60 : November20 , 2020
+
+> - **Today's Progress**: Copied Keio hospital's site.
+>
+> - **Thoughts:**: Slideshow program is so difficult. I can't understand what does it move.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/2c433625168d5d77340abb4c33a93edfeb301e60
+                      [Twitter] https://twitter.com/qweblog/status/1329769147228581889
+
 --format--
 
 ## Day : November , 2020
