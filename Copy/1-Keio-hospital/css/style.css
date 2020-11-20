@@ -578,6 +578,10 @@ header{
 	color: white;
 }
 
+.infomation a:hover{
+	text-decoration: none;
+}
+
 .important{
 	background-color: tomato;
 }
@@ -606,6 +610,10 @@ header{
 .menus{
 	width: 100%;
 	padding: 4vh 10vw 0 10vw;
+}
+
+.menus a:hover{
+	text-decoration: underline;
 }
 
 .menu{
@@ -687,14 +695,251 @@ header{
 }
 
 .etc{
-	height: 100vh;
+	height: 70vh;
+	padding: 4vh 5vw 0 5vw;
 }
 
-.ect>div>{
+.etc a:hover{
+	opacity: 0.5;
+}
+
+.etc>.row>div:first-of-type{
 	background-color: #f7f8f8;
-	height: 50vh;
+	height: 57vh;
 }
 
-.etc-info{
-	background-color: red;
+.etc-info>.row{
+	padding-top: 1vh;
+	width: 32vw;
+	margin-left: 0.5vw;
+}
+
+.etc-info>.row>dt:before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/sprites-se8687b0ed3.png);
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 38px;
+    position: relative;
+    top: 1vh;
+    right: 0.5vw;
+}
+
+.etc-info>.row:nth-of-type(2){
+	height: 9vh;
+}
+
+.etc-info>.row:nth-of-type(2)>dd{
+	line-height: 7vh;
+}
+
+.etc-info>.row:nth-of-type(3)>dt{
+	line-height: 6vh;
+}
+
+.etc-info>.row:nth-of-type(1)>dt:before{
+	background-image: url(../img/mark_telephone.png);
+	width: 41px;
+}
+
+.etc-info>.row:nth-of-type(2)>dt:before{
+	background-position: 0 -269px;
+}
+
+.etc-info>.row:nth-of-type(3)>dt:before{
+	background-position: 0 -269px;
+}
+
+.etc-info>.row:nth-of-type(4)>dt:before{
+	background-position: 0 -193px;
+}
+
+.info-link{
+	margin:0 auto;
+}
+
+.info-link>a{
+	text-decoration: none;
+}
+
+.info-link>a>li{
+	background-color: #031763;
+	color: white;
+	margin:0 1vw;
+	height: 7vh;
+	width: 14vw;
+	line-height: 7vh;
+	text-align: center;
+}
+
+.info-link>a>li:before{
+	content: "";
+	display: inline-block;
+	background-image: url(../img/sprites-se8687b0ed3.png);
+    background-repeat: no-repeat;
+    height: 17px;
+    width: 18px;
+    background-position: 0 -51px;
+    position: relative;
+    top: 0.2vh;
+    right: 0.5vw;
+}
+
+.location{
+	height: 33vh;
+}
+
+.location>img{
+	height: 30vh;
+	width: 33vw;
+	position: absolute;
+	z-index: -1;
+}
+
+.location>div{
+	background-color: #383838;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	padding-top: 3vh;
+	position: relative;
+	z-index: 1;
+	top:200vh;
+	top: 10vh;
+	left: 8vh;
+}
+
+
+.location>div>a{
+	text-decoration: none;
+	padding-right: -1vw;
+}
+
+.location>div>a>span{
+	color: white;
+	font-size: 0.8em;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.location>div>a>span:first-of-type{
+	margin-left: -1vw;
+}
+
+.location>div>a>span:first-of-type:before{
+	content: '';
+	display: inline-block;
+	background-image: url(../img/sprites-se8687b0ed3.png);
+	background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+    background-position: 0 -51px;
+    position: relative;
+    top: -1.5vh;
+    right: -2.5vw;
+}
+
+.location>ul>a{
+	text-decoration: none;
+}
+
+.location>ul>a>li{
+	height: 6vh;
+	background-color: #ff9f1a;
+	width: 12vw;
+	line-height: 6vh;
+	color: white;
+	font-weight: 600;
+	position: relative;
+	text-align: center;
+}
+
+.location>ul>a>li:hover{
+	background-color: rgba(255,159,26,0.9);
+}
+
+.location>ul>a>li:last-of-type{
+	top: -4vh;
+	left: 16vw;
+	margin-top: 2vh;
+}
+
+.location>ul>a>li:before{
+	content: '';
+	display: inline-block;
+	background-image: url(../img/sprites-se8687b0ed3.png);
+	background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+    background-position: 0 -51px;
+    position: relative;
+    top: 0.2vh;
+    right: 0.5vw;
+}
+
+.other-menu{
+	background-color: #f0ede5;
+	height: 15vh;
+	padding-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.others{
+	background-color: #f7f8f8;
+	height: 12vh;
+}
+
+footer{
+	background-color: #031763;
+	height: 6.2vh;
+}
+
+footer>.row{
+	padding: 0 8vw;
+	height: 6vh;
+}
+
+footer>div>ul>a{
+	display: inline-block;
+	text-decoration: none;
+	width: 10vw;
+	height: 6vh;
+}
+
+footer>div>ul{
+	line-height: 6vh;
+	height: 6vh;
+	margin-bottom: 0;
+}
+
+footer>div>ul>a>li{
+	font-size: 0.7em;
+	width: 10vw;
+	color: white;
+	margin-left: 0.5vw;
+}
+
+/*footer>div>ul>a:nth-of-type(2)>li:before,
+footer>div>ul>a:nth-of-type(2)>li:after,
+footer>div>ul>a:nth-of-type(3)>li:after{
+	content: "|";
+	color: white;
+}
+*/
+footer>.row>p{
+	display: inline-block;
+	color: white;
+	font-size: 0.9em;
+	line-height: 6vh;
+	margin-bottom: 0;
+	height: 6vh;
+}
+
+footer>div>ul>span{
+	color: white;
+}
+
+footer>div>ul>span:nth-of-type(2){
+	margin-left: 1vw;
 }
