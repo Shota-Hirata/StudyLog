@@ -540,6 +540,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/2c433625168d5d77340abb4c33a93edfeb301e60
                       [Twitter] https://twitter.com/qweblog/status/1329769147228581889
 
+## Day61 : November21 , 2020
+
+> - **Today's Progress**: Designed site for responsible.
+>
+> - **Thoughts:**: I can't find when I can get money using programming.
+>
+> - **Link to work:** [Github]  https://github.com/Shota-Hirata/StudyLog/commit/66ba8070c0f84e4984a8d92d8f6750eca8712e73
+                      [Twitter] https://twitter.com/qweblog/status/1330160976415645697
+
 --format--
 
 ## Day : November , 2020
