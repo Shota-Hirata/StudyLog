@@ -3,6 +3,7 @@ $(function(){
 	$('.nav-1').hover(
 		function(){
 		$('.tab1').slideDown(250);
+		$('.tab1').css('.global-nav>ul>li>a>p:after', 'rotate(225deg)');
 	  },function(){
 	  	$('.tab1').fadeOut(100);
 	});

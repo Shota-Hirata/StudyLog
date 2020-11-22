@@ -186,6 +186,10 @@ header{
 	margin-bottom: 0;
 }
 
+.global-nav>ul>li span{
+	display: none;
+}
+
 .tab1,.tab2,.tab3{
 	display: none;
 	z-index: 100;
@@ -1068,21 +1072,66 @@ footer>div>ul>span:nth-of-type(2){
 
 	.global-nav>ul{
 		margin-bottom: 0;
+		height: 6vh;
 	}
 
-	.global-nav>ul>li:hover{
-		background-color: red;
-		height: 6vh;
+	.global-nav>ul>li{
+		width: 33%;
+		position: relative;
+	}
+
+	.global-nav>ul>li>a>p:after{
+		content: "";
+		display: block;
+	    border-bottom: 2px solid #fff;
+	    border-right: 2px solid #fff;
+	    background-image: none;
+	    background-color: transparent;
+	    position: relative;
+	    width: 8px;
+	    height: 8px;
+	    left: 108px;
+	    top: -29px;
+	    margin-top: -4px;
+	    transform: rotate(45deg);
+	}
+
+	/*.global-nav>ul>li>a>p:after:hover{
+		transform: rotate(225deg);
+	}*/
+
+	.global-nav>ul>li:nth-of-type(2)>a>p:after{
+		top: -15px;
+	}
+
+	.global-nav>ul>li span{
+		display: inline;
+	}
+
+	.global-nav>ul>li:nth-of-type(2){
+		border-left: solid 1px white;
+		border-right: solid 1px white;
+	}
+
+	.global-nav>ul>li:nth-of-type(2) p{
+		margin-top: 1.5vh;
+		line-height: 1.5vh;
 	}
 
 	.global-nav>ul>li>a>p{
 		margin-bottom: 0;
+		font-size: 0.5em;
+		word-break: break-all;
 	}
 
 	.global-nav>ul>p{
 		color: white;
 		line-height: 6vh;
 		margin-bottom: 0;
+	}
+
+	.global-nav .section{
+		display: none;
 	}
 
 	.section{
