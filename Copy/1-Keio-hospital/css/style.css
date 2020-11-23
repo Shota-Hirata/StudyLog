@@ -1080,7 +1080,7 @@ footer>div>ul>span:nth-of-type(2){
 		position: relative;
 	}
 
-	.global-nav>ul>li>a>p:after{
+	.nav-p:after{
 		content: "";
 		display: block;
 	    border-bottom: 2px solid #fff;
@@ -1096,9 +1096,10 @@ footer>div>ul>span:nth-of-type(2){
 	    transform: rotate(45deg);
 	}
 
-	/*.global-nav>ul>li>a>p:after:hover{
+	.nav-pp:after{
+		content: "";
 		transform: rotate(225deg);
-	}*/
+	}
 
 	.global-nav>ul>li:nth-of-type(2)>a>p:after{
 		top: -15px;
@@ -1139,22 +1140,42 @@ footer>div>ul>span:nth-of-type(2){
 	}
 
 	.tab1,.tab2,.tab3{
-		display: none;
-		z-index: 100;
-		background-color: white;
-		margin-top: 0;
-		padding-top: 2vh;
+		padding-top: 1vh;
+		height: 90vh;
 	}
 
 	.tab>dl>dt{
-		font-size: 1.6em;
-		margin-bottom: 1vh;
+		display: none;
 	}
 
 	.tab>dl{
 		border-right: solid 1px gainsboro;
 		margin-right: 1vh;
 		margin-bottom: 0.5vh;
+	}
+
+	.tab>dl>dd{
+		margin-bottom: -1rem;
+	}
+
+	.tab-dd>ul{
+		width: 100%;
+	}
+
+	.tab-dd>ul>li{
+		height: 5vh;
+		font-size: 0.7em;
+		width: 100%;
+		border-top: 2px solid gray;
+		line-height: 5vh;
+	}
+
+	.tab-dd>ul>li:after{
+		content: "";
+	    display: block;
+	    position: absolute;
+	    border-bottom: 3px solid #999;
+	    transform: rotate(-45deg);
 	}
 
 	.tab>dl:first-of-type{
@@ -1201,53 +1222,12 @@ footer>div>ul>span:nth-of-type(2){
 		height: 38px;
 	}
 
-	.go:before{
-		background-position: 0 -307px;
-	}
-
-	.find-out:before{
-		background-position: 0 -231px;
-	}
-
-	.inquire:before{
-		background-position: 0 -763px;
-	}
-
-	.base-info:before{
-		background-position: 0 -438px;
-	}
-
-	.initiative:before{
-		background-position: 0 -476px;
-	}
-
-	.doctor:before{
-		background-position: 0 -345px;
-	}
-
-	.pencil:before{
-		background-position: 0 -613px;
-	}
-
-
 	.tab-dd{
 		margin-left: 0vw;
 	}
 
-	.tab-dd>ul>li{
-		height: 4vh;
-		font-size: 0.9em;
-	}
-
 	.tab-dd>ul>li:before{
-		line-height: 4vh;
-		content: "";
-		display: inline-block;
-		background-image: url(../img/sprites-se8687b0ed3.png);
-		background-repeat: no-repeat;
-		width: 18px;
-		height: 18px;
-		background-position: 0 -34px;
+		content: none;
 	}
 
 	.tab-dd>ul>li>a{
@@ -1261,7 +1241,7 @@ footer>div>ul>span:nth-of-type(2){
 	}
 
 	.bg{
-		height: 70vh;
+		height: 30vh;
 		margin-top: 0vh;
 		z-index: -10;
 		background-position: left;
@@ -1276,106 +1256,78 @@ footer>div>ul>span:nth-of-type(2){
 
 	.main-container{
 		width: 100vw;
-		height: 60vh;
+		height: 20vh;
+		padding: 0;
 		z-index: -10;
 		margin-left: 0vw;
 	}
 
-	.top-img{
+	.top-imgs{
+		width: 100%;
 		z-index: -10;
-	}
-
-	.bg1{
-		background-image: url(../img/jp-mv_01_pc_20161011.png);
-	}
-
-	.bg2{
-		background-image: url(../img/jp-mv_02_pc_20161011.png);
-	}
-
-	.bg3{
-		background-image: url(../img/jp-mv_03_pc_20161011.png);
-	}
-
-	.bg4{
-		background-image: url(../img/jp-mv_04_pc_20161011.png);
-	}
-
-	.bg5{
-		background-image: url(../img/jp-mv_05_pc_20161011.png);
-	}
-
-	.bg6{
-		background-image: url(../img/jp-mv_06_pc_20161011.png);
-	}
-
-	.bg7{
-		background-image: url(../img/jp-mv_07_pc_20161011.png);
+		height: 20vh;
+		margin: 0;
 	}
 
 	.COVID-info{
-		background-color: #e8e8e8;
-		padding: 0 13vw;
-		text-align: center;
-		height: 5vh;
+		background-color: white;
+		padding: 0 3vw;
+		height: 17vh;
+		z-index: -100;
 	}
 
 	.COVID-info>dl>dt{
-		background-color: lightpink;
-		text-align: right;
-		line-height: 5vh;
-		height: 5vh;
-		padding-bottom: 1vh;
+		text-align: center;
+		line-height: 4vh;
+		height: 4vh;
+		font-size: 0.8em;
 		position: relative;
+		width: 100%;
 	}
 
 	.COVID-info>dl>dt:before{
-		content: "";
-		background-repeat: no-repeat;
-		background-image: url(../img/sprites-se8687b0ed3.png);
-		margin-top: 1vh;
-		width: 29px;
-		height: 29px;
-		background-position: 0 -130px;
-		display: inline-block;
-		position: absolute;
-		top: -0.1vh;
-		left: 1.5vw;
+		content: none;
 	}
 
 	.COVID-info>dl>dd{
 		padding: 0;
-		width: 50vw;
+		width: 100vw;
 	}
 
 	.COVID-info>dl>dd>p{
-		display: inline-block;
-		width: 8vw;
-		padding: 0;
-		line-height: 5vh;
-		margin-left: -8vw;
+		text-align: left;
+		width: 100vw;
+		margin-left: 2vw;
+		margin-bottom: 0;
 	}
 
 	.COVID-info>dl>dd>a{
 		display: inline-block;
 		line-height: 5vh;
-		margin-left: -3vw;
+		margin-left: 0vw;
+		font-size: 0.9em;
 	}
 
 	.purpose{
 		text-align: center;
-		width: 80vw;
-		margin-left: 12vw;
+		width: 76vw;
+		margin-left: 10vw;
+		height: 60vh;
 	}
 
 	.purpose>ul{
 		margin-bottom: 0;
 		height: 20vh;
+		display: flex;
+		width: 100%;
 	}
 
 	.purpose>ul>li{
-		width: 10vw;
+		width: 30vw;
 		padding:2vh 2vw;
+		border-top: 1px solid silver;
+		border-bottom: 1px solid silver;
+		margin: 1vh 1vw;
 	}
 
 	.purpose>ul>li:hover{
