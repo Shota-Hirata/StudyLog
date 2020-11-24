@@ -567,6 +567,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/7a5465f86e3993112aab1b20df9cf9db65c7bf4c
                       [Twitter] https://twitter.com/qweblog/status/1330851549061419009
 
+## Day64 : November24 , 2020
+
+> - **Today's Progress**: Designed site for responsible.
+>
+> - **Thoughts:**: I can't find solution how to order elements in different parents elements.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/495a1ce3ed42a6154750fb2afe8b7dd88b4013fa
+                      [Twitter] https://twitter.com/qweblog/status/1331145995040612354
+
 --format--
 
 ## Day : November , 2020
