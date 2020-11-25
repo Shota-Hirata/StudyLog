@@ -59,14 +59,34 @@ $(function(){
 	};
 
 
-	$('.info1').click(function(){
-		$(this).addClass('click');
-		$('.info2').removeClass('click');
-		$('.info3').removeClass('click');
-		$('.info-content1').css('display','block');
-		$('.info-content2').css('display','none');
-		$('.info-content3').css('display','none');
-	});
+	if (jQuery(window).width() < 768) {
+		$('.info1').click(function(){
+			$('.info-content1-mov').toggleClass('dosplay','none');
+		});
+	} else {
+		$('.info1').click(function(){
+			$(this).addClass('click');
+			$('.info2').removeClass('click');
+			$('.info3').removeClass('click');
+			$('.info-content1').css('display','block');
+			$('.info-content2').css('display','none');
+			$('.info-content3').css('display','none');
+		});
+	};
+
+	if (jQuery(window).width() < 768) {
+		
+	} else {
+		
+	};
+
+	if (jQuery(window).width() < 768) {
+		
+	} else {
+		
+	};
+
+
 
 	$('.info2').click(function(){
 		$(this).addClass('click');

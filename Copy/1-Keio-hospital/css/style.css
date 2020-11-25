@@ -1494,29 +1494,6 @@ footer>div>ul>span:nth-of-type(2){
 	    right: 0.5vw;
 	}
 
-	.info1{
-		order: 2;
-	}
-
-	.info2{
-		order: 1;
-	}
-
-	.info3{
-		order: 0;
-	}
-
-	.info-content1{
-		order: 1;
-	}
-
-	.info-content2{
-		order: 3;
-	}
-
-	.info-content3{
-		order: 5;
-	}
 
 	.menus{
 		width: 100%;
@@ -1696,6 +1673,16 @@ footer>div>ul>span:nth-of-type(2){
 	    position: relative;
 	    top: 0.2vh;
 	    right: 0.5vw;
+	}
+
+	.info-content1-mov,
+	.info-content2-mov,
+	.info-content3-mov{
+		display: none;
+	}
+
+	.qq{
+		display: none;
 	}
 
 	.location{
