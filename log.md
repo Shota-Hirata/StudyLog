@@ -576,6 +576,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/495a1ce3ed42a6154750fb2afe8b7dd88b4013fa
                       [Twitter] https://twitter.com/qweblog/status/1331145995040612354
 
+## Day65 : November25 , 2020
+
+> - **Today's Progress**: Designed site for responsible.
+>
+> - **Thoughts:**: I can't write many codes today.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/53775980ead06712928251887a1b21e579f26bcb
+                      [Twitter] https://twitter.com/qweblog/status/1331622519099387904
+
 --format--
 
 ## Day : November , 2020
