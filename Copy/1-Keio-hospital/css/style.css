@@ -192,7 +192,7 @@ header{
 
 .tab1,.tab2,.tab3{
 	display: none;
-	z-index: 100;
+	z-index: 99999999;
 	background-color: white;
 	margin-top: 0;
 	padding-top: 2vh;
@@ -331,6 +331,10 @@ header{
 	height: 60vh;
 	z-index: -10;
 	margin-left: 15vw;
+}
+
+.top-imgs{
+	z-index: -10;
 }
 
 .top-img{
@@ -1150,7 +1154,7 @@ footer>div>ul>span:nth-of-type(2){
 
 	.tab>dl{
 		border-right: solid 1px gainsboro;
-		margin-right: 1vh;
+		margin-right: 0vh;
 		margin-bottom: 0.5vh;
 	}
 
@@ -1165,9 +1169,11 @@ footer>div>ul>span:nth-of-type(2){
 	.tab-dd>ul>li{
 		height: 5vh;
 		font-size: 0.7em;
-		width: 100%;
+		width: 97vw;
 		border-top: 2px solid gray;
 		line-height: 5vh;
+		margin-top: -0.4vh;
+		background-color: white;
 	}
 
 	.tab-dd>ul>li:after{
@@ -1184,6 +1190,7 @@ footer>div>ul>span:nth-of-type(2){
 
 	.tab>dl:last-of-type{
 		border-right: solid 1px white;
+		margin-top: -1vh;
 	}
 
 	.dt-icon{
@@ -1204,13 +1211,7 @@ footer>div>ul>span:nth-of-type(2){
 	}
 
 	.tab-bottom>a:before{
-		background-image: url(../img/sprites-se8687b0ed3.png);
-		width: 18px;
-		height: 18px;
-		background-position: 0 -34px;
-		content: "";
-		display: inline-block;
-		line-height: 3em;
+		content: none;
 	}
 
 	.dt-icon:before{

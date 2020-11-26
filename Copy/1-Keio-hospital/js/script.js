@@ -9,6 +9,7 @@ $(function(){
 			$(this).toggleClass('nav-pp');
 			$('.nav-2 .nav-p').removeClass('nav-pp');
 			$('.nav-3 .nav-p').removeClass('nav-pp');
+			$('.cov').toggleClass('display','none');
 			$('.tab2').slideUp(10);
 	        $('.tab3').slideUp(10);
 	        $('.tab1').slideToggle();
@@ -16,9 +17,15 @@ $(function(){
 	} else {
 		$('.nav-1').hover(
 			function(){
+			$('.tab2').fadeOut(100);
+			$('.tab3').fadeOut(100);
 			$('.tab1').slideDown(250);
 		  },function(){
-		  	$('.tab1').fadeOut(100);
+		  	$('.tab1').hover(
+		  		function(){
+		  		},function(){
+		  			$(this).fadeOut(100);
+		  		});
 		});
 	};
 
@@ -34,9 +41,15 @@ $(function(){
 	} else {
 		$('.nav-2').hover(
 			function(){
+			$('.tab1').fadeOut(100);
+			$('.tab3').fadeOut(100);
 			$('.tab2').slideDown(250);
 		  },function(){
-		  	$('.tab2').fadeOut(100);
+		  	$('.tab2').hover(
+		  		function(){
+		  		},function(){
+		  			$(this).fadeOut(100);
+		  		});
 		});
 	};
 
@@ -52,9 +65,15 @@ $(function(){
 	} else {
 		$('.nav-3').hover(
 			function(){
+			$('.tab1').fadeOut(100);
+			$('.tab2').fadeOut(100);
 			$('.tab3').slideDown(250);
 		  },function(){
-		  	$('.tab3').fadeOut(100);
+		  	$('.tab3').hover(
+		  		function(){
+		  		},function(){
+		  			$(this).fadeOut(100);
+		  		});
 		});
 	};
 
