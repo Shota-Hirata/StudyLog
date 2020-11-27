@@ -593,6 +593,15 @@
 >
 > - **Link to work:** [Github]  https://github.com/Shota-Hirata/StudyLog/commit/c20186ba4c46e6770e0e306f24bf4ebbfed99dcc
                       [Twitter] https://twitter.com/qweblog/status/1331937499795525633
+
+## Day67 : November27 , 2020
+
+> - **Today's Progress**: Designed site for responsible.
+>
+> - **Thoughts:**: I was followed by Mr.Manabu. I have to give value to everyone more mroe mroe.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/73d0fb556154d98805b21a0f0db776937be2fb71
+                      [Twitter] https://twitter.com/qweblog/status/1332334523569172481
 --format--
 
 ## Day : November , 2020
