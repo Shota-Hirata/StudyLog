@@ -446,6 +446,12 @@ header{
 	color: black;
 }
 
+.info-content-res-1,
+.info-content-res-2,
+.info-content-res-3{
+	display: none;
+}
+
 .map{
 	background-color: #e8e8e8;
 	padding: 0 13vw;
@@ -522,10 +528,11 @@ header{
 	height: auto;
 	max-height: 400vh;
 	text-align: center;
+	padding: 0;
 }
 
 .infomation>.row{
-	width: 98.8vw;
+	width: 100vw;
 	padding: 5vh 10vw 0 10vw;
 	margin-bottom: 0;
 }
@@ -1146,6 +1153,7 @@ footer>div>ul>span:nth-of-type(2){
 	.tab1,.tab2,.tab3{
 		padding-top: 1vh;
 		height: 90vh;
+		z-index: 100;
 	}
 
 	.tab>dl>dt{
@@ -1309,6 +1317,14 @@ footer>div>ul>span:nth-of-type(2){
 		font-size: 0.9em;
 	}
 
+	.cov{
+	}
+
+	.cov-on{
+		position: relative;
+		z-index: -9;
+	}
+
 	.purpose{
 		width: 100vw;
 		margin: 0;
@@ -1391,17 +1407,18 @@ footer>div>ul>span:nth-of-type(2){
 	}
 
 	.infomation{
-		background-color: white;
+		background-color: #f0ede5;
 		height: auto;
 		max-height: 900vh;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
+		padding: 0;
 	}
 
 	.infomation>.row{
-		width: 98.8vw;
-		padding: 5vh 3vw 0 3vw;
+		width: 100vw;
+		padding: 2vh 3vw 0 3vw;
 		margin-bottom: 0;
 	}
 
@@ -1420,6 +1437,12 @@ footer>div>ul>span:nth-of-type(2){
 		padding-bottom: 3vh;
 	}
 
+	.infomation>ul:first-of-type{
+		background-color: white;
+		width: 104vw;
+		padding: 3vh 3vw 0 7vw;
+	}
+
 	.infomation>ul>li{
 		height: 6.5vh;
 		line-height: 6.5vh;
@@ -1431,6 +1454,10 @@ footer>div>ul>span:nth-of-type(2){
 	.infomation>ul>li:nth-of-type(2){
 		border-left: none;
 		border-right: none;
+	}
+
+	.infomation>ul>li:last-of-type{
+		margin-bottom: 3vh;
 	}
 
 	.infomation>dl{
@@ -1462,8 +1489,21 @@ footer>div>ul>span:nth-of-type(2){
 		text-align: center;
 		font-size: 0.8em;
 		display: inline-block;
-		width: 5vw;
+		width: 20vw;
 		color: white;
+		margin-right: 32vw;
+	}
+
+	.qq-a{
+		display: block;
+		margin-left: 1vw;
+	}
+
+	.info-content-res-1,
+	.info-content-res-2,
+	.info-content-res-3{
+		height: auto;
+		width: 100%;
 	}
 
 	.infomation a:hover{
@@ -1495,94 +1535,51 @@ footer>div>ul>span:nth-of-type(2){
 	    right: 0.5vw;
 	}
 
+	.back{
+		padding-left: 30vw;
+	}
+
 
 	.menus{
 		width: 100%;
 		padding: 4vh 10vw 0 10vw;
 	}
 
-	.menus a:hover{
-		text-decoration: underline;
-	}
-
 	.menu{
-		padding: 0 5vw;
 		display: none;
 	}
 
-	.menu>li{
-		margin-bottom: 2vh;
+	.menus-res{
+		display: flex;
+		flex-wrap: wrap;
+		height: 65vh;
+		padding: 0 1vw;
 	}
 
-	.menu>li>a{
-		color: black;
-		text-decoration: none;
-	}
-
-	.menu>li>a>span{
-		display: block;
-		background-color: white;
-		height: 5vh;
-		line-height: 5vh;
-		font-size: 0.9em;
-	}
-
-	.menu>li>a>span:before{
-		content: '';
-		display: inline-block;
-		background-image: url(../img/sprites-se8687b0ed3.png);
-		background-repeat: no-repeat;
-	    height: 18px;
-	    width: 18px;
-	    background-position: 0 -34px;
-	    position: relative;
-	    top: 0.5vh;
-	    right: 0.5vw;
+	.menus-res>li{
+		border-top: 0.2em solid #000;
+		width: 45vw;
+		height: 8vh!important;
+		margin:0 2vw;
+		padding: 0;
 	}
 
 	.menu-img{
 		width: 100%;
-		height: 15vh;
+		height: 8vh;
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
-	.menu-img1{
-		background-image: url(../img/img_feature_07.jpg);
+	.menus-res>li>a>span{
+		display: block;
+		background-color: white;
+		height: 3vh;
+		line-height: 3vh;
+		font-size: 0.6em;
 	}
 
-	.menu-img2{
-		background-image: url(../img/img_feature_08.jpg);
-	}
-
-	.menu-img3{
-		background-image: url(../img/img_feature_09.jpg);
-	}
-
-	.menu-img4{
-		background-image: url(../img/img_feature_01.jpg);
-	}
-
-	.menu-img5{
-		background-image: url(../img/img_feature_02.jpg);
-	}
-
-	.menu-img6{
-		background-image: url(../img/img_feature_03.jpg);
-	}
-
-	.menu-img7{
-		background-image: url(../img/img_feature_04.jpg);
-	}
-
-	.menu-img8{
-		background-image: url(../img/img_feature_05.jpg);
-	}
-
-	.menu-img9{
-		background-image: url(../img/img_feature_06.jpg);
-	}
 
 	.etc{
 		height: 70vh;
@@ -1679,10 +1676,6 @@ footer>div>ul>span:nth-of-type(2){
 	.info-content1-mov,
 	.info-content2-mov,
 	.info-content3-mov{
-		display: none;
-	}
-
-	.qq{
 		display: none;
 	}
 
