@@ -611,7 +611,16 @@
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/c6da0469d8e4586296f4fb74d4aef142bbfa9854
                       [Twitter] https://twitter.com/qweblog/status/1332682562607616003
-                      
+  
+## Day69 : November29 , 2020
+
+> - **Today's Progress**: Studie about Git.
+>
+> - **Thoughts:**: This is so complexity. I understand about it 30%.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/ce11a9536f3d19e6132ec73e172ed46d684c3fbd
+                      [Twitter] https://twitter.com/qweblog/status/1333052280048795649
+                    
 --format--
 
 ## Day : November , 2020
