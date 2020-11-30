@@ -620,10 +620,8 @@
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/ce11a9536f3d19e6132ec73e172ed46d684c3fbd
                       [Twitter] https://twitter.com/qweblog/status/1333052280048795649
-                    
---format--
-
-## Day : November , 2020
+  
+## Day70 : November30 , 2020
 
 > - **Today's Progress**: 
 >
@@ -631,3 +629,14 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] 
+                  
+--format--
+
+## Day : December , 2020
+
+> - **Today's Progress**: Studied about Git.
+>
+> - **Thoughts:**: Merge and rebaase are difficult. I have to use these command to understand them.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/295d385732d30b3445d2b439648a603951703de2
+                      [Twitter] https://twitter.com/qweblog/status/1333391292508774401
