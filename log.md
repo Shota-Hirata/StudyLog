@@ -623,20 +623,29 @@
   
 ## Day70 : November30 , 2020
 
-> - **Today's Progress**: 
->
-> - **Thoughts:**:
->
-> - **Link to work:** [Github]
-                      [Twitter] 
-                  
---format--
-
-## Day : December , 2020
-
 > - **Today's Progress**: Studied about Git.
 >
 > - **Thoughts:**: Merge and rebaase are difficult. I have to use these command to understand them.
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/295d385732d30b3445d2b439648a603951703de2
                       [Twitter] https://twitter.com/qweblog/status/1333391292508774401
+
+## Day71 : December1 , 2020
+
+> - **Today's Progress**: Reviewd about Git.
+>
+> - **Thoughts:**: I understood almost all about curriculm.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/825d8cac2304d1956b27cfdbc7a1d49eb8c9502e
+                      [Twitter] https://twitter.com/qweblog/status/1333788668302041095
+                      
+--format--
+
+## Day : December , 2020
+
+> - **Today's Progress**: 
+>
+> - **Thoughts:**:
+>
+> - **Link to work:** [Github]
+                      [Twitter] 
