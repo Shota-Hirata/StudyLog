@@ -919,14 +919,15 @@ footer{
 }
 
 footer>.row{
-	padding: 0 8vw;
+	padding: 0 1vw;
 	height: 6vh;
+	display: flex;
 }
 
-footer>div>ul>a{
+footer>div>ul>div>a{
 	display: inline-block;
 	text-decoration: none;
-	width: 10vw;
+	width: 20vw;
 	height: 6vh;
 }
 
@@ -936,7 +937,7 @@ footer>div>ul{
 	margin-bottom: 0;
 }
 
-footer>div>ul>a>li{
+footer>div>ul>div>a>li{
 	font-size: 0.7em;
 	width: 10vw;
 	color: white;
@@ -950,6 +951,12 @@ footer>div>ul>a:nth-of-type(3)>li:after{
 	color: white;
 }
 */
+
+.pp{
+	float: left;
+	display: flex;
+}
+
 footer>.row>p{
 	display: inline-block;
 	color: white;
@@ -959,13 +966,13 @@ footer>.row>p{
 	height: 6vh;
 }
 
-footer>div>ul>span{
+footer>div>ul>div>span{
 	color: white;
 }
 
-footer>div>ul>span:nth-of-type(2){
+/*footer>div>ul>div>span:nth-of-type(2){
 	margin-left: 1vw;
-}
+}*/
 
 
 /*---------------------------------------------------------------------*/
