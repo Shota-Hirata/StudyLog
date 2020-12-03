@@ -638,7 +638,15 @@
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/825d8cac2304d1956b27cfdbc7a1d49eb8c9502e
                       [Twitter] https://twitter.com/qweblog/status/1333788668302041095
-                      
+  
+## Day72 : December2 , 2020
+
+> - **Today's Progress**: Modified original web pages.
+>
+> - **Thoughts:**: It may sell this pages to circles.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/06b864e754bffde1d155fc7af804e80e4093315d
+                      [Twitter]  https://twitter.com/qweblog/status/1334146340679417857                  
 --format--
 
 ## Day : December , 2020
