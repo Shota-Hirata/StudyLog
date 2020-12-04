@@ -657,6 +657,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/6e961b9a96092207c65ff37a60349c4390576312
                       [Twitter] https://twitter.com/qweblog/status/1334501582570807296
 
+## Day74 : December4 , 2020
+
+> - **Today's Progress**: Made product to sell university cricles.
+>
+> - **Thoughts:**: I finished crating. I'm worry about this product really sold.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/070a1cd7760c66df6f4d4c81e59d287e45c73602
+                      [Twitter] https://twitter.com/qweblog/status/1334862468611416064
+
 --format--
 
 ## Day : December , 2020
