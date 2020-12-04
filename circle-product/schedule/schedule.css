@@ -115,49 +115,28 @@ a{
 }
 
 
-.spring{
-  background-image: url(spring/pictures/IMG_4510.jpg);
-}
-
-
-
-.licence{
-  background-image: url(licence/pictures/IMG_4524.jpg);
-}
-
-
 .BBQ{
-  background-image: url(BBQ/pictures/IMG_4931.jpg);
+  background-image: url(BBQ/pictures/1.jpg);
 }
 
-.okinawa{
-  background-image: url(okinawa/pictures/IMG_4593.JPG);
+.camp{
+  background-image: url(camp/pictures/2.jpg);
 }
 
-.festival{
-  background-image: url(festival/pictures/IMG_4537.jpg);
-}
-
-
-.onsen{
-  background-image: url(onsen/pictures/IMG_4650.JPG);
-}
-
-.bounenkai{
-  background-image: url(bounenkai/pictures/IMG_4549.JPG);
+.tournament{
+  background-image: url(tournament/pictures/2.jpg);
 }
 
 .snow{
-  background-image: url(snow/pictures/IMG_4564.JPG);
+  background-image: url(snow/pictures/8.jpg);
 }
 
-.graduation{
-  background-image: url(graduation/pictures/IMG_4935.JPG);
+.practice{
+  background-image: url(practice/pictures/1.jpg);
 }
-
 
 .nomikai{
-  background-image: url(nomikai/pictures/IMG_4515.JPG);
+  background-image: url(nomikai/pictures/5.JPG);
 }
 
 .back{
@@ -221,6 +200,10 @@ a{
 
 }
 
+#top-wrapper img{
+  height: 50vh;
+}
+
 }
 
 
@@ -234,7 +217,7 @@ a{
 
 
 #top-wrapper img{
-  height: 10vh;
+  height: 15vh;
 }
 
 .photography{

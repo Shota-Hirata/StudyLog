@@ -99,7 +99,6 @@ a{
 
 
 .btn{
-
   padding: 0px;
   text-align: center;
   height: 40vh;
@@ -129,7 +128,8 @@ a{
   line-height: 40vh;
 }
 
-.about a{
+.about a,
+.leaders a{
   color: black;
 }
 
@@ -286,7 +286,8 @@ a{
   line-height: 18vh;
 }
 
-.about a{
+.about a,
+.leaders a{
   color: white;
 }
 

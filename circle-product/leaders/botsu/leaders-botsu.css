@@ -1,9 +1,5 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+@media screen and (max-width:10000px) {
+/*横表示*/
 
 body{
   font-style: normal;
@@ -53,84 +49,98 @@ a{
 }
 
 .main{
-  height: 500px;
+  height: auto;
 }
-
 
 .container{
   padding: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
-  height: 3900px;
+  height: auto;
   width: 100%;
 }
 
-.top-wrapper img{
+.container h1{
+  text-align: center;
+  font-size: 40px;
+  opacity: 0.7;
+  margin-top:  5vh;
+  line-height: 50px;
+}
+
+ .container img{
+  height: 40vh;
   width: 90vw;
-  height: 30vh;
-  margin: 0 5vw;
+  text-align: center;
+  padding: 0 5vw;
 }
 
-.top-wrapper p{
+.top {
+  height: 20vh;
+}
+
+.qa{
+  width: 90vw;
+  height: 150vh;
+  margin: auto;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.qa th{
+  height: 6vh;
+  background-color:#ffd9ff;
+  color: black;
+}
+
+.qa td{
+  text-align: center;
+  height: 8vh;
   font-size: 20px;
-  text-align: center;
-
 }
 
-.btn {
-  height: 50vh;
-  width: 86vw;
-  text-align: center;
-  margin: 10vh 7vw;
+.btn{
+  height: 20vh;
+  width: 40vw;
+  margin:5vh 4.6vw;
   border: 2px solid #000;
+  box-shadow: 0px 8px #C0C0C0;
   background-size: cover;
-  border-radius: 5px;
-  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
-}
-
-.btn:active{
-  opacity: 0.5;
+  float: left;
 }
 
 .btn a{
-display: inline-block;
-width: 86vw;
-
-}
-
-.btn p{
-  display:block;
-  width: 86vw;
-  margin: 43vh 0 0 0;
-  font-size: 30px;
+  display: inline-block;
+  width: 40vw;
   text-align: center;
-  background-color:rgba(211, 255, 203, 0.5);
-  color: #000;
+  line-height: 20vh;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
-.president{
-  background-image: url("../pictures/who.png");
+.btn:active{
+  opacity: 0.7;
+  position: relative;
+  top: 8px;
+  box-shadow: none;
 }
 
-.vice-president{
-  background-image: url("../pictures/who.png");
+.leaders{
+  background-image: url(../pictures/top.png);
+  background-position: center;
 }
 
-.accountant{
-  background-image: url("../pictures/who.png");
+.home{
+  background-image: url(../../pictures/4.jpg);
+  background-position:top;
 }
 
-.BKC{
-  background-image: url("../pictures/who.png");
-}
-
-.KIC{
-  background-image: url("../pictures/who.png");
-}
-
-.OIC{
-  background-image: url("../pictures/who.png");
+.footer{
+  height: 150px;
+  background-color: #000000;
+  margin-top: 33vh;
 }
 
 .SNS{
@@ -139,10 +149,9 @@ width: 86vw;
 
 .sns{
   display: inline-block;
-  border: 2px solid #000000;
-  width: 40.7vw;
+  width: 40vw;
   text-align: center;
-  margin: 40px 15px;
+  margin: 40px 5vw;
   font-size: 20px;
   border-radius: 100px;
   color: white;
@@ -156,16 +165,51 @@ width: 86vw;
 .instagram{
   background-image: url(../../pictures/instagram_23-2147821882.jpg);
   background-size: cover;
-
 }
 
 .sns:active{
   opacity: 0.7;
 }
 
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+/*縦表示*/
+
+.container img{
+ height: 20vh;
+}
+
+.qa{
+  height: auto;
+}
+
+
+.clearfix {
+  padding: 0 5vw;
+}
+
+.btn{
+  height: 10vh;
+  width: 90vw;
+  margin:5vh auto;
+  float: none;
+}
+
+.btn a{
+  width: 90vw;
+  line-height: 10vh;
+  font-size: 1.5em;
+}
+
+
+
 .footer{
-  height: 150px;
-  background-color: #000000;
-  margin-top: 50px;
+  margin-top: 100px;
+}
+
 
 }

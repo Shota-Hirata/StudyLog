@@ -56,7 +56,7 @@ a{
   padding: 0px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 2vh;
   height: auto;
   width: 100%;
 }
@@ -71,10 +71,9 @@ a{
 
  .main>img{
   height: 40vh;
-  width: 90vw;
-  margin-top: 6vh;
+  width: 80vw;
+  margin: 8vh 8vw 0 8vw;
   text-align: center;
-  padding: 0 5vw;
 }
 
 .top {
@@ -87,9 +86,9 @@ a{
 
 .img{
   width: 45vw;
-  background-image: url("../pictures/who.png");
+  background-image: url("pictures/pic.png");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   margin: 0 0 0 5vw;
 }
 
@@ -116,7 +115,7 @@ a{
 .btn{
   height: 20vh;
   width: 40vw;
-  margin:5vh 4.6vw;
+  margin:5vh 4.5vw;
   border: 2px solid #000;
   box-shadow: 0px 8px #C0C0C0;
   background-size: cover;
@@ -142,11 +141,11 @@ a{
 
 .leaders{
   background-image: url(../pictures/top.png);
-  background-position: center;
+  background-position: top;
 }
 
 .home{
-  background-image: url(../../pictures/IMG_3805.jpg);
+  background-image: url(../../pictures/4.jpg);
   background-position:top;
 }
 
@@ -164,7 +163,7 @@ a{
   display: inline-block;
   width: 40vw;
   text-align: center;
-  margin: 40px 5vw;
+  margin: 40px 4.5vw;
   font-size: 20px;
   border-radius: 100px;
   color: white;
@@ -178,6 +177,7 @@ a{
 .instagram{
   background-image: url(../../pictures/instagram_23-2147821882.jpg);
   background-size: cover;
+  background-position: top;
 }
 
 .sns:active{
@@ -197,7 +197,7 @@ a{
 
 .main>img{
   height: 46vh;
-  margin-top: 17vh;
+  margin-top: 20vh;
 }
 
 }
@@ -218,7 +218,7 @@ a{
 
 .main>img{
  height: 20vh;
- margin-top: 8vh;
+ margin-top: 10vh;
 }
 
 .flex{

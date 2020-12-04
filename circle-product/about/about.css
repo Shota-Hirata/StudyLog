@@ -70,8 +70,8 @@ p{
 }
 
 .main{
-  height: 700vh;
-  background-image: url(pictures/IMG_5026.JPG);
+  height: auto;
+  background-image: url(pictures/S__24952838.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -79,7 +79,7 @@ p{
 }
 
 .top-wrapper{
-  background-image: url(pictures/IMG_5001.JPG);
+  background-image: url(pictures/S__24952840.jpg);
   background-size: cover;
   background-position: 0% 100%;
   margin-top: 80px;
@@ -91,7 +91,7 @@ p{
 .message{
   width: 90vw;
   border: 2px solid #000;
-  height: 690vh;
+  height: auto;
   margin: 5vh auto;
   background-color: rgba(255, 255, 255, 0.6);
   overflow: scroll;
@@ -137,12 +137,12 @@ p{
 }
 
 .schedule{
-  background-image: url(../schedule/pictures/year1.png);
+  background-image: url(../schedule/pictures/year.png);
   background-position: center;
 }
 
 .home{
-  background-image: url(../pictures/IMG_3805.jpg);
+  background-image: url(../pictures/9.jpg);
   background-position:top;
 }
 
@@ -212,17 +212,9 @@ p{
 @media screen and (max-width:700px) {
 /*縦表示*/
 
-.main{
-  height: 400vh;
-}
-
 .top-wrapper{
   background-position: center;
-  height: 40vh;
-}
-
-.message{
-  height: 390vh;
+  height: 30vh;
 }
 
 .clearfix {
@@ -242,6 +234,7 @@ p{
   height: 10vh;
   width: 90vw;
   margin:5vh auto;
+  background-position: center;
 }
 
 .btn a{
@@ -249,8 +242,12 @@ p{
   width: 90vw;
   text-align: center;
   line-height: 10vh;
-  color: green;
+  color: black;
   font-size: 1.5em;
+}
+
+.btn:last-child a{
+  color: white;
 }
 
 .btn:active{

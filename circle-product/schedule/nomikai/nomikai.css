@@ -73,7 +73,7 @@ img{
 .top-wrapper img{
   width: 50vw;
   height: 40vh;
-  margin: 80px 24vw 0vh 24vw;
+  margin: 11vh 24vw 0vh 24vw;
 }
 
 .second-wrapper img{
@@ -279,18 +279,21 @@ color: #808080;
   color:#FF0000 ;
 }
 .schedule{
-  background-image: url(../pictures/year1.png) ;
+  background-image: url(../pictures/year.png) ;
   background-size: cover;
   background-position: center;
   margin: 5vh 5vw 0 4.5vw;
 }
 
 .home{
-  background-image: url(../../pictures/IMG_3805.jpg)	;
+  background-image: url(../../pictures/4.jpg)	;
   background-size: cover;
   margin: 5vh 4vw 0 4vw;
 }
 
+.home a{
+  color: white;
+}
 
 
 
@@ -343,7 +346,7 @@ img{
 .top-wrapper img{
   width: 90vw;
   height: 80vh;
-  margin: 80px 4vw 0vh 4vw;
+  margin: 12vh 4vw 0vh 4vw;
 }
 
 .second-wrapper img{

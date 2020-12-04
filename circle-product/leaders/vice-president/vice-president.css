@@ -56,7 +56,7 @@ a{
   padding: 0px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 2vh;
   height: auto;
   width: 100%;
 }
@@ -69,28 +69,40 @@ a{
   line-height: 50px;
 }
 
- .container img{
+ .main>img{
   height: 40vh;
-  width: 90vw;
+  width: 80vw;
+  margin: 8vh 8vw 0 8vw;
   text-align: center;
-  padding: 0 5vw;
 }
 
 .top {
   height: 20vh;
 }
 
+.flex{
+  display: flex;
+}
+
+.img{
+  width: 45vw;
+  background-image: url("pictures/pic.png");
+  background-size: cover;
+  background-position: top;
+  margin: 0 0 0 5vw;
+}
+
 .qa{
-  width: 90vw;
-  height: 150vh;
-  margin: auto;
+  width: 50vw;
+  height: 70vh;
   border: 2px solid black;
   margin-top: 20px;
+  margin: 0 5vw;
 }
 
 .qa th{
   height: 6vh;
-  background-color:#ffd9ff;
+  background-color:#afa6ff;
   color: black;
 }
 
@@ -103,7 +115,7 @@ a{
 .btn{
   height: 20vh;
   width: 40vw;
-  margin:5vh 4.6vw;
+  margin:5vh 4.5vw;
   border: 2px solid #000;
   box-shadow: 0px 8px #C0C0C0;
   background-size: cover;
@@ -129,11 +141,11 @@ a{
 
 .leaders{
   background-image: url(../pictures/top.png);
-  background-position: center;
+  background-position: top;
 }
 
 .home{
-  background-image: url(../../pictures/IMG_3805.jpg);
+  background-image: url(../../pictures/4.jpg);
   background-position:top;
 }
 
@@ -151,7 +163,7 @@ a{
   display: inline-block;
   width: 40vw;
   text-align: center;
-  margin: 40px 5vw;
+  margin: 40px 4.5vw;
   font-size: 20px;
   border-radius: 100px;
   color: white;
@@ -165,10 +177,27 @@ a{
 .instagram{
   background-image: url(../../pictures/instagram_23-2147821882.jpg);
   background-size: cover;
+  background-position: top;
 }
 
 .sns:active{
   opacity: 0.7;
+}
+
+}
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:1000px) {
+
+.container{
+  margin-top: 0;
+}
+
+
+.main>img{
+  height: 46vh;
+  margin-top: 20vh;
 }
 
 }
@@ -179,12 +208,35 @@ a{
 @media screen and (max-width:700px) {
 /*縦表示*/
 
-.container img{
+.container{
+  margin-top:  1vh;
+}
+
+.container h1{
+  margin-top:  1vh;
+}
+
+.main>img{
  height: 20vh;
+ margin-top: 10vh;
+}
+
+.flex{
+  display: block;
+}
+
+.img{
+  width: 90vw;
+  height: 50vh;
+  margin: 5vh 5vw;
 }
 
 .qa{
-  height: auto;
+  width: 90vw;
+  height: 70vh;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin: 0 5vw;
 }
 
 
