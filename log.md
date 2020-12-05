@@ -666,6 +666,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/070a1cd7760c66df6f4d4c81e59d287e45c73602
                       [Twitter] https://twitter.com/qweblog/status/1334862468611416064
 
+## Day75 : December5 , 2020
+
+> - **Today's Progress**: Made template to sell university cricles.
+>
+> - **Thoughts:**: I made good teplate and I have to sell it.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/70b579e695a83067975d468b67c3dd78d13afddc
+                      [Twitter https://twitter.com/qweblog/status/1335235111013380096
+                      
 --format--
 
 ## Day : December , 2020
