@@ -191,7 +191,8 @@ p{
 
   .top-wrapper{
     margin-top: 80px;
-    height: 120vh;
+    height: 100vh;
+    background-position: 0% 90%;
   }
 
   h2{

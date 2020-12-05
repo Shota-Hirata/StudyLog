@@ -1,0 +1,42 @@
+
+.bal2{
+  margin: 2vh 20vw;
+}
+
+.ribbon2{
+  background-color: #f57a78;
+  width: 10vw;
+  margin: 5vh 44vw 1vh 44vw;
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:1000px) {
+/*横表示*/
+
+.ribbon1, .ribbon2 {
+  width: auto;
+  width: 20vw;
+  margin: 5vh 37vw 1vh 40vw;
+}
+
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+/*縦表示*/
+
+.ribbon1, .ribbon2 {
+  width: 40vw;
+  margin: 5vh 30vw 1vh 30vw;
+}
+
+.ribbon2{
+  width: 40vw;
+  margin: 5vh 30vw 1vh 30vw;
+}
+
+}

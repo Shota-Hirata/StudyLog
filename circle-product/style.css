@@ -59,7 +59,7 @@ a{
 
 .main-logo{
   height: 600px;
-  background-image: url(pictures/9.JPG);
+  background-image: url(pictures/9.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -146,12 +146,12 @@ a{
 }
 
 .leaders{
-  background-image: url(pictures/3.JPG);
+  background-image: url(pictures/3.jpg);
   float: left;
 }
 
 .questions{
-  background-image: url(pictures/6.JPG);
+  background-image: url(pictures/6.jpg);
   float: left;
 }
 

@@ -1,0 +1,372 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-style: normal;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  padding:  0;
+  width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header-logo{
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.header-logo:active{
+  opacity: 0.5;
+}
+
+.header-logo img{
+  width: 120px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-logo a{
+  display: inline-block;
+  width: 120px;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  padding:  0;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 5px #000000;
+}
+
+.main{
+
+}
+
+.top-wrapper img{
+  width: 60vw;
+  height: 40vh;
+  margin: 90px 5vw 0vh 20vw;
+}
+
+.first{
+  text-align: center;
+  font-size: 20px;
+  width: 70vw;
+  margin: 5vh 15vw;
+}
+
+.index h1 {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.index p {
+  text-align: center;
+}
+
+.question{
+  width: 90vw;
+  height: 15vh;
+  margin: 3vh 4vw;
+  border: 1px solid #969696;
+  box-shadow: 0 5px #b4b4b4;
+  background-color: #fff8d6;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex>.question{
+  width: 40vw;
+  margin-left: 5vw;
+}
+
+.question:active{
+  position: relative;
+  box-shadow: none;
+  top:5px;
+}
+
+.dot{
+  color: #ffa800;
+}
+
+
+.question a{
+  width: 90vw;
+  text-align: center;
+  line-height: 15vh;
+  font-size: 20px;
+  color: #000;
+}
+
+.flex>.question a{
+  width: 40vw;
+}
+
+.cp_qa *, .cp_qa *:after, .cp_qa *:before {
+	font-family: 'FontAwesome', sans-serif;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+          margin: 5vh 0;
+}
+.cp_qa dt,.cp_qa dd {
+	position: relative;
+	padding: 0.5em;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+	border-radius: 0.3em;
+}
+.cp_qa dt {
+	margin: 0 3em 1em 3em;
+	background: #ffe0b2;
+    margin-top: 5vh;
+}
+.cp_qa dd {
+	margin: 0 3em 1.5em 3em;
+	background: #b2ebf2;
+}
+/* 吹き出し▶︎ */
+.cp_qa dt::before,.cp_qa dd::before{
+	position: absolute;
+	z-index: 99;
+	top: -1.5em;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	content: '';
+	border-style: solid;
+}
+/* 質問吹き出し▶︎ */
+.cp_qa dt::before {
+	left: -0.5em;
+	border-width: 5px 8.7px 5px 0;
+	border-color: transparent #ffe0b2 transparent transparent;
+}
+/* 答え吹き出し▶︎ */
+.cp_qa dd::before {
+	right: -0.5em;
+	border-width: 5px 0 5px 8.7px;
+	border-color: transparent transparent transparent #b2ebf2;
+}
+/* ?!アイコン */
+.cp_qa dt::after,.cp_qa dd::after {
+	font-size: 1.2em;
+	position: absolute;
+	top: 0;
+	color: #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	line-height: 1.2em;
+}
+/* ?アイコン */
+.cp_qa dt::after {
+	left: -2.5em;
+	margin: 0 0.5em 0 0;
+	padding: 0.2em 0.4em;
+	content: 'Q';
+	background: #f57c00;
+}
+/* !アイコン */
+.cp_qa dd::after {
+	right: -2.5em;
+	margin: 0 0 0 0.5em;
+	padding: 0.2em 0.55em;
+	content: 'A';
+	background: #0097a7;
+}
+
+dd a{
+  color: blue;
+  width: 15vw;
+  margin:0 !important;
+}
+
+dd a:active{
+  color: black;
+}
+
+
+
+
+ .qwe{
+  color: #000;
+  text-align:center;
+  display: inline-block;
+  margin: 0 0 0 75vw;
+  width: 10vw;
+}
+
+
+
+.SNS{
+  text-align: center;
+}
+
+.sns{
+  display: inline-block;
+  width: 40vw;
+  text-align: center;
+  margin: 40px 4.5vw;
+  font-size: 20px;
+  border-radius: 100px;
+  color: white;
+  float: left;
+
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.instagram{
+  background-image: url(../pictures/instagram_23-2147821882.jpg);
+  background-size: cover;
+
+}
+
+.sns:active{
+  opacity: 0.7;
+}
+
+.footer{
+  height: 150px;
+  background-color: #000000;
+  margin-top: 50px;
+
+}
+
+/*----------------------------------------------------------*/
+
+
+@media screen and (max-width:1000px) {
+/*横表示*/
+
+.top-wrapper img{
+  width: 90vw;
+  height: 70vh;
+  margin: 90px 2vw 0vh 5vw;
+}
+
+.question a{
+   font-size: 16px;
+}
+
+.qwe{
+  color: #000;
+  text-align:center;
+  display: inline-block;
+  margin: 0 0 0 50vw;
+  width: 40vw;
+}
+
+.cp_qa dt::before,.cp_qa dd::before{
+  top: 0em;
+}
+
+dd a{
+  color: black;
+  width: 25vw;
+  margin:0 !important;
+}
+
+
+
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+/*縦表示*/
+
+.top-wrapper img{
+  height: 25vh;
+  margin: 90px 5vw 0vh 5vw;
+}
+
+.first{
+  text-align: center;
+  font-size: 18px;
+  width: 80vw;
+  margin: 5vh 10vw;
+}
+
+
+.flex{
+  display: initial;
+}
+
+.question{
+  font-size: 18px;
+  height: 9vh;
+  margin:5vh auto;
+}
+
+.flex>.question{
+  width: 90vw;
+  margin-left: 5vw;
+}
+
+.question a{
+  width: 90vw;
+  line-height: 9vh;
+  font-size: 16px;
+}
+
+.flex>.question a{
+  line-height: 9vh;
+  width: 90vw;
+}
+
+.cp_qa *, .cp_qa *:after, .cp_qa *:before {
+  margin: 0 0;
+}
+
+ .qwe{
+  color: #000;
+  text-align:center;
+  display: inline-block;
+  margin-left: 50vw;
+  width: 40vw;
+}
+
+.cp_qa a{
+  text-align: left;
+  color: black;
+}
+
+.cp_qa dt::before,.cp_qa dd::before{
+  top: 0.5em;
+}
+
+dd a{
+  color: black;
+  width: 55vw;
+  margin:0 !important;
+}
+
+
+}

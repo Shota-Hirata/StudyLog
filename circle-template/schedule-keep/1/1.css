@@ -1,0 +1,65 @@
+
+.bal2{
+  margin: 2vh 0 0 60vw;
+}
+
+.bal3{
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 10vw;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+}
+
+.bal3:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #e0edff;
+}
+
+.ribbon2{
+  background-color: #96eaf0;
+  margin: 8vh 30vw 1vh 30vw;
+}
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:1000px) {
+/*横表示*/
+
+.ribbon1, .ribbon2 {
+  width: auto;
+  margin: 5vh 35vw 1vh 35vw;
+}
+
+.ribbon2{
+  margin: 8vh 40vw 1vh 40vw;
+}
+
+
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+/*縦表示*/
+
+.ribbon1, .ribbon2 {
+  margin: 5vh 28vw 1vh 28vw;
+}
+
+.ribbon2{
+  background-color: #96eaf0;
+  margin: 8vh 28vw 1vh 28vw;
+}
+
+}

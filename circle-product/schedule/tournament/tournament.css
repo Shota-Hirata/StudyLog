@@ -171,7 +171,7 @@ td{
 
 .ribbon1, .ribbon2 {
   width: 10vw;
-  margin: 5vh 45vw 1vh 45vw;
+  margin: 5vh 44vw 1vh 44.5vw;
   display: inline-block;
   position: relative;
   height: 50px;/*リボンの高さ*/
@@ -211,7 +211,7 @@ td{
 .ribbon2{
   background-color: #f57a78;
   width: 10vw;
-  margin: 5vh 45vw 1vh 45vw;
+  margin: 5vh 44vw 1vh 44vw;
 }
 
 .flex {
@@ -371,7 +371,7 @@ img{
 .top-wrapper img{
   width: 90vw;
   height: 80vh;
-  margin: 12vh 4vw 0vh 4vw;
+  margin: 20vh 4vw 0vh 4vw;
 }
 
 .second-wrapper img{
@@ -414,7 +414,7 @@ td{
 .ribbon1, .ribbon2 {
   width: auto;
   width: 20vw;
-  margin: 5vh 40vw 1vh 40vw;
+  margin: 5vh 37vw 1vh 40vw;
 }
 
 
@@ -452,6 +452,7 @@ td{
 
 .top-wrapper img{
   height: 20vh;
+  margin: 12vh 4vw 0vh 4vw;
 }
 
 table{

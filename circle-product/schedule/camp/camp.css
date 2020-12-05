@@ -73,7 +73,7 @@ img{
 .top-wrapper img{
   width: 50vw;
   height: 40vh;
-  margin: 11vh 24vw 0vh 24vw;
+  margin: 12vh 24vw 0vh 24vw;
 }
 
 .second-wrapper img{
@@ -387,7 +387,7 @@ img{
 .top-wrapper img{
   width: 90vw;
   height: 80vh;
-  margin: 12vh 4vw 0vh 4vw;
+  margin: 20vh 4vw 0vh 4vw;
 }
 
 .second-wrapper img{
@@ -471,6 +471,7 @@ td{
 
 .top-wrapper img{
   height: 20vh;
+  margin: 12vh 4vw 0vh 4vw;
 }
 
 table{
