@@ -683,7 +683,16 @@
 >
 > - **Link to work:** [Github] 
                       [Twitter] https://twitter.com/qweblog/status/1335581302444019712
-                 
+            
+## Day77 : December7 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I'll watch YouTube about how to assemble WordPerss theme.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1335944518076571648
+     
 --format--
 
 ## Day : December , 2020
