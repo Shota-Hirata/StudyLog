@@ -692,7 +692,16 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1335944518076571648
-     
+    
+## Day78 : December8 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I watched YouTube about WordPress. I create it from tomorrow.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1336311162397368320
+ 
 --format--
 
 ## Day : December , 2020
