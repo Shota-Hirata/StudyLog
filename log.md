@@ -702,6 +702,14 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1336311162397368320
  
+## Day79 : December9 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I have to move my hand. Now, I just only watch YouTube video.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1336671384454361089
 --format--
 
 ## Day : December , 2020
