@@ -710,6 +710,16 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1336671384454361089
+                      
+## Day : December , 2020
+
+> - **Today's Progress**: 
+>
+> - **Thoughts:**:
+>
+> - **Link to work:** [Github]　https://github.com/Shota-Hirata/StudyLog/commit/dd186d4ad834e10056bffe28a0137a8c7abd74a7
+                      [Twitter] https://twitter.com/qweblog/status/1336937496060424192
+
 --format--
 
 ## Day : December , 2020
