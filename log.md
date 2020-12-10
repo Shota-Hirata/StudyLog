@@ -713,9 +713,9 @@
                       
 ## Day : December , 2020
 
-> - **Today's Progress**: 
+> - **Today's Progress**: Implemented slider in site.
 >
-> - **Thoughts:**:
+> - **Thoughts:**: Surplisingly, I was able to implement slider with plugin named slick.
 >
 > - **Link to work:** [Github]　https://github.com/Shota-Hirata/StudyLog/commit/dd186d4ad834e10056bffe28a0137a8c7abd74a7
                       [Twitter] https://twitter.com/qweblog/status/1336937496060424192
