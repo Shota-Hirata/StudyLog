@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+
+
+body {
+    overflow-x: hidden;
+}
+
 .col, .col-1, .col-10,
 .col-11, .col-12, .col-2,
 .col-3, .col-4, .col-5,
@@ -911,6 +917,26 @@ header{
 .others{
 	background-color: #f7f8f8;
 	height: 12vh;
+	display: flex;
+	padding: 3vh 17vw 0 ;
+}
+
+.slider{
+	width: 84%;
+	margin: 0%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: '';
+}
+
+.prev{
+	margin-right: 1vw;
+}
+
+.next{
+	margin-left: 0.5vw;
 }
 
 footer{
@@ -1804,9 +1830,32 @@ footer>div>ul>div>span{
 	}
 
 	.others{
-		background-color: #f7f8f8;
 		height: 12vh;
+		padding: 3vh 0;
 	}
+
+	.slider{
+		width: 45%;
+		margin: 0%;
+	}
+
+	.slider li{
+		width: 100%;
+	}
+
+	.slick-prev:before,
+	.slick-next:before {
+	    content: '';
+	}
+
+	.prev{
+		margin-right: 16vw;
+	}
+
+	.next{
+		margin-left: 16vw;
+	}
+
 
 	footer{
 		background-color: #031763;

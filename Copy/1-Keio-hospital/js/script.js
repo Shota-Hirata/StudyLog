@@ -140,4 +140,30 @@ $(function(){
 		});
 	};
 
+	if (jQuery(window).width() < 768) {
+		$('.slider').slick({
+		    autoplay:true,
+		    autoplaySpeed:5000,
+		    dots:false,
+		    slidesToShow:1,
+	    	slidesToScroll:1
+		});
+	} else {
+		$('.slider').slick({
+		    autoplay:true,
+		    autoplaySpeed:5000,
+		    dots:false,
+		    slidesToShow:4,
+	    	slidesToScroll:1
+		});
+	};
+
+	$('.prev').on('click',function(){
+	    $('.slider').slick('slickNext');
+	});
+
+	$('.next').on('click',function(){
+	    $('.slider').slick('slickPrev');
+	});
+
 });
