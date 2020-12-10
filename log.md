@@ -666,6 +666,50 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/070a1cd7760c66df6f4d4c81e59d287e45c73602
                       [Twitter] https://twitter.com/qweblog/status/1334862468611416064
 
+## Day75 : December5 , 2020
+
+> - **Today's Progress**: Made template to sell university cricles.
+>
+> - **Thoughts:**: I made good teplate and I have to sell it.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/70b579e695a83067975d468b67c3dd78d13afddc
+                      [Twitter https://twitter.com/qweblog/status/1335235111013380096
+     
+## Day76 : December6 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I have to learn about WordPress absourtelly.
+>
+> - **Link to work:** [Github] 
+                      [Twitter] https://twitter.com/qweblog/status/1335581302444019712
+            
+## Day77 : December7 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I'll watch YouTube about how to assemble WordPerss theme.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1335944518076571648
+    
+## Day78 : December8 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I watched YouTube about WordPress. I create it from tomorrow.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1336311162397368320
+ 
+## Day79 : December9 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I have to move my hand. Now, I just only watch YouTube video.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1336671384454361089
 --format--
 
 ## Day : December , 2020
