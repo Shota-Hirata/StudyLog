@@ -729,6 +729,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1337421687982235650
 
+## Day82 : December12 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I have to think about why I study about this skill.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1337772823956189184
+
 --format--
 
 ## Day : December , 2020
