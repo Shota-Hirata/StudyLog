@@ -738,6 +738,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1337772823956189184
 
+## Day83 : December13 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I understood about template hierarchy
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1338142821920849922
+
 --format--
 
 ## Day : December , 2020
