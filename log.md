@@ -710,6 +710,43 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1336671384454361089
+                      
+## Day80 : December10 , 2020
+
+> - **Today's Progress**: Implemented slider in site.
+>
+> - **Thoughts:**: Surplisingly, I was able to implement slider with plugin named slick.
+>
+> - **Link to work:** [Github]　https://github.com/Shota-Hirata/StudyLog/commit/dd186d4ad834e10056bffe28a0137a8c7abd74a7
+                      [Twitter] https://twitter.com/qweblog/status/1336937496060424192
+
+## Day81 : December11 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I have to memorise a lot of wp codes.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1337421687982235650
+
+## Day82 : December12 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I have to think about why I study about this skill.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1337772823956189184
+
+## Day83 : December13 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I understood about template hierarchy
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1338142821920849922
+
 --format--
 
 ## Day : December , 2020
