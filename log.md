@@ -744,7 +744,7 @@
 >
 > - **Thoughts:**: I understood about template hierarchy
 >
-> - **Link to work:** [Github]
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/51781178e27b4d516f80099384df5a02f832b618
                       [Twitter] https://twitter.com/qweblog/status/1338142821920849922
 
 --format--
