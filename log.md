@@ -747,6 +747,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/51781178e27b4d516f80099384df5a02f832b618
                       [Twitter] https://twitter.com/qweblog/status/1338142821920849922
 
+## Day84 : December14 , 2020
+
+> - **Today's Progress**: Studied about bootstrap.
+>
+> - **Thoughts:**: I notices bootstrap has unlimited possibility.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/6af71a9d87f8a81452b8c8c2349a34b0055fc29c
+                      [Twitter] https://twitter.com/qweblog/status/1338506644129370114
+
 --format--
 
 ## Day : December , 2020
