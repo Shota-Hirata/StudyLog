@@ -756,6 +756,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/6af71a9d87f8a81452b8c8c2349a34b0055fc29c
                       [Twitter] https://twitter.com/qweblog/status/1338506644129370114
 
+## Day85 : December15 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I make WordPress Theme with YouTube. These movies makes same of Manablog theme.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1338506644129370114
+
 --format--
 
 ## Day : December , 2020
