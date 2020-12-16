@@ -1,0 +1,11 @@
+/*
+Theme Name:My Theme
+Description:テストコード
+Version:1.0
+Author:Shota Hirata
+*/
+
+ul{
+	list-style: none;
+	display: flex;
+}
