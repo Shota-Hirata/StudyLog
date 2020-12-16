@@ -765,6 +765,15 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1338506644129370114
 
+## Day86 : December16 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: It's so difficult but I grow up day by day.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/tree/master/WordPress/MyTheme
+                      [Twitter] https://twitter.com/qweblog/status/1339215165053521922
+
 --format--
 
 ## Day : December , 2020
