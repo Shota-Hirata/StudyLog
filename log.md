@@ -774,6 +774,24 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/tree/master/WordPress/MyTheme
                       [Twitter] https://twitter.com/qweblog/status/1339215165053521922
 
+## Day87 : December17 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I enjoied learning new knowledge.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1339584674356547590
+                      
+## Day88 : December18 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: Finished watching YouTube videos. I'd like to review these knowledge.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/68d9dc8cfa601375ff85b1e75a4505789f727ca6
+                      [Twitter] https://twitter.com/qweblog/status/1339942850000109570
+
 --format--
 
 ## Day : December , 2020
