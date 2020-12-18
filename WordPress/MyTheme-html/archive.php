@@ -1,42 +1,38 @@
 <?php get_header(); ?>
     <main class="bg-light">
       <div class="container">
-        <!-- ピックアップ記事 -->
-        <div class="row py-3">
-            <?php $top_query = new WP_Query('tag=toppickup'); ?>
-            <?php if ($top_query->have_posts()) : ?>
-              <?php while ($top_query->have_posts()) : $top_query->the_post(); ?>
-                <div class="col-md-4 col-12">
-                  <div class="bg-white py-3">
-                    <!-- サムネイル -->
-                    <div class="py-3">
-                      <?php if (has_post_thumbnail()) : ?>
-                        <?php the_post_thumbnail('',array('class' => 'img-fluid')); ?>
-                      <?php else: ?>
-                        <img class="img-fluid" src="https://picsum.photos/800/400">
-                      <?php endif; ?>
-                    </div>
-                    <!-- 記事タイトル  -->
-                    <h2 class="h4 px-3 pb-3"><?php the_title(); ?></h2>
-                    <!-- ボタン -->
-                    <div class="text-center">
-                      <a href="<?php the_permalink(); ?>">
-                        <div class="d-inline-block border p-3 text-secondary">
-                          READ MORE
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              <?php endwhile; ?>
-              <?php wp_reset_postdata(); ?>
-            <?php else: ?>
-              <p><?php esc_html_e('Sorry no posts matched your criteria.'); ?></p>
-          <?php endif; ?>
-        </div>
         <div class="row py-3">
           <!-- メインコンテンツ -->
           <div class="col-md-8 col-12">
+            <!-- アーカイブタイトル -->
+            <div class="py-3">
+              <?php if(is_category()): ?>
+                <!-- カテゴリーアーカイブ -->
+                <h1 class="h2">
+                  「<?php echo single_cat_title(); ?>」の記事
+                </h1>
+                <?php elseif(is_tag()): ?>
+                  <!-- タグアーカイブ -->
+                  <h1 class="h2">
+                    「<?php echo single_tag_title(); ?>」の記事
+                  </h1>
+                <?php elseif(is_author()): ?>
+                  <!-- 著者アーカイブ -->
+                  <h1 class="h2">
+                    「<?php echo esc_attr(get_the_author_meta('nickname')); ?>」の記事
+                  </h1>
+                <?php elseif(is_month()): ?>
+                  <!-- 日付アーカイブ -->
+                  <h1 class="h2">
+                    「<?php echo the_time('Y年n月'); ?>」の記事
+                  </h1>
+                <?php elseif(is_tax()): ?>
+                  <!-- 日付アーカイブ -->
+                  <h1 class="h2">
+                    「<?php single_term_title(); ?>」の記事
+                  </h1>
+              <?php endif; ?>
+            </div>
             <?php
               if (have_posts()): while (have_posts()):
                 the_post();

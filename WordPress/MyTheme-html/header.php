@@ -1,14 +1,13 @@
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html lang="ja">
   <head>
     <!-- Required meta tags -->
-    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- ファビコン -->
-    <?php $mytheme_favicon = esc_url(get_option('mytheme_favicon_img')); ?>
-    <link rel="icon" type="img/png" href="<?php echo $mytheme_favicon; ?>">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" type="text/css" />
-    <?php wp_head(); ?>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>My Theme</title>
   </head>
   <body>
     <header>

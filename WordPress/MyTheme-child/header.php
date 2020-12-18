@@ -40,3 +40,8 @@
         </div>
       </div>
     </nav>
+    <a class="text-white" href="#" title="">
+      <div class="attention text-center">
+        自己紹介はこちら
+      </div>
+    </a>

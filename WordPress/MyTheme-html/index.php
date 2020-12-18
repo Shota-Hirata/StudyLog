@@ -70,16 +70,6 @@
           <?php endwhile; else: ?>
             <p>記事がありません</p>
           <?php endif; ?>
-          <!-- ページネーション -->
-            <!-- <div class="float-left pb-3">
-              <?php previous_posts_link('<div class="d-inline-block border p-3 text-secondary">前のページ</div>'); ?>
-            </div>
-            <div class="float-right pb-3">
-              <?php next_posts_link('<div class="d-inline-block border p-3 text-secondary">次のページ</div>'); ?>
-            </div> -->
-            <?php if(function_exists("mytheme_pagenation")): ?>
-              <?php mytheme_pagenation(); ?>
-            <?php endif; ?>
           </div>
           <!-- サイドバー -->
           <?php get_sidebar(); ?>

@@ -10,11 +10,33 @@
             ?>
               <div class="bg-white py-3 mb-5 text-center">
                 <!-- 日付 -->
-                <p><?php the_time('Y/n/j'); ?></p>
+                <p><?php the_time('Y/n/j'); ?>
+                <?php if(get_the_modified_date("Y/n/j")): ?>
+                  (更新日：<?php echo get_the_modified_date("Y/n/j"); ?>)
+                <?php endif; ?>
+                <!-- カスタムフィールド -->
+                <?php $weather = get_post_meta($post->ID, 'Weather', true) ?>
+                <?php if($weather): ?>
+                  天気は<?php echo $weather; ?>
+                <?php endif; ?></p>
                 <!-- 記事タイトル  -->
                 <h1 class="h2 px-3 pb-3 font-weight-bolder"><?php the_title(); ?></h1>
                 <!-- カテゴリー -->
                 <p><?php the_category(' '); ?></p>
+                <!-- カスタムタクソノミー -->
+                <!-- <p><?php the_terms($post->ID, 'genre'); ?></p> -->
+                <?php
+                  $terms = get_the_terms($post->ID, 'genre');
+                  if($terms):
+                ?>
+                  <?php foreach($terms as $term): ?>
+                    <p>
+                      <a href="<?php echo get_term_link($term->slug, 'genre'); ?>">
+                        <?php echo $term->name; ?>
+                      </a>
+                    </p>
+                  <?php endforeach; ?>
+                <?php endif; ?>
                 <!-- サムネイル -->
                 <div class="py-3">
                   <?php if (has_post_thumbnail()) : ?>
@@ -26,8 +48,16 @@
                 <!-- 本文 -->
                 <div class="text-left">
                   <?php the_content(); ?>
+                  <!-- SNSシェアボタン -->
+                  <?php get_template_part('parts-sns'); ?>
+                  <?php comments_template(); ?>
+                  <p>投稿者
+                    <a href="<?php echo esc_url(get_the_author_meta('twitter')); ?>">
+                    <?php echo esc_attr(get_the_author_meta('nickname')); ?>
+                    </a>
+                  </p>
+                  <?php get_template_part('breadcrumb'); ?>
                 </div>
-                <!-- ボタン -->
               </div>
           <?php endwhile; else: ?>
             <p>記事がありません</p>
