@@ -792,6 +792,14 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/68d9dc8cfa601375ff85b1e75a4505789f727ca6
                       [Twitter] https://twitter.com/qweblog/status/1339942850000109570
 
+## Day89 : December19 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: Just watched YouTube movies.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1340318159782305794
 --format--
 
 ## Day : December , 2020
