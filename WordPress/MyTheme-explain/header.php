@@ -1,19 +1,23 @@
 <!doctype html>
-<html lang="ja">
+<html <?php language_attributes(); ?>>
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>My Theme</title>
+    <!-- ファビコン -->
+    <?php $mytheme_favicon = esc_url(get_option('mytheme_favicon_img')); ?>
+    <link rel="icon" type="img/png" href="<?php echo $mytheme_favicon; ?>">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" type="text/css" />
+    <!-- WordPressの決まり文句 -->
+    <?php wp_head(); ?>
   </head>
   <body>
     <header>
       <div class="container">
+        <!-- index.phpなら -->
         <?php if (is_home()) { ?>
           <h1 class="h1 py-3">My Theme</h1>
+          <!-- それ以外なら -->
         <?php } else { ?>
           <div class="h1 py-3">My Theme</div>
         <?php } ?>
@@ -26,12 +30,18 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- ナビゲーションバーを管理画面のメニューで管理 -->
           <?php
           $defaults = array(
+            // ulに付けるクラス
             'menu_class'      => 'navbar-nav',
+            // ulを囲むもの
             'container'       => false,
+            // リンクの前の要素
             'link_before'     => '<span class="nav-item text-white mr-4">',
+            // リンクの後の要素
             'link_after'      => '</span>',
+            // functions.phpで書いたメニューの設定場所
             'theme_location'  => 'global-navigation',
           );
           wp_nav_menu( $defaults );
