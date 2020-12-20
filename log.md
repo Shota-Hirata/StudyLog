@@ -800,6 +800,16 @@
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1340318159782305794
+       
+## Day90 : December20 , 2020
+
+> - **Today's Progress**: Studied about WordPress
+>
+> - **Thoughts:**: I gradually understand about wordpress.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/0b035c33524710d2a0b657c31e036173edddd6d4
+                      [Twitter] https://twitter.com/qweblog/status/1340568452990263298
+               
 --format--
 
 ## Day : December , 2020
