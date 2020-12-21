@@ -1,5 +1,8 @@
+<!-- SNSのシェアボタンを作成 -->
 <?php
+	// TwitterのURLを取得
 	$twitter_url = get_the_author_meta('twitter');
+	// Twitterのユーザーを取得
 	$twitter_user = str_replace("https://twitter.com/", "", $twitter_url);
 ?>
 

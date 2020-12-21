@@ -44,12 +44,18 @@
     </div>
       <?php $pickup_id = esc_html(get_option('mytheme_pickup_article')); ?>
       <?php $pickup_ids = explode(",", $pickup_id); ?>
+      <!-- idがあったとき -->
       <?php if($pickup_ids !== ''): ?>
+        <!-- 配列を代入 -->
         <?php $manage_query = new WP_Query(
           array(
+            // 全ての投稿タイプを取得
             'post_type' => 'any',
+            // 記事を入れた順に表示
             'orderby' => 'post__in',
+            // 配列に入れる記事
             'post__in' => $pickup_ids,
+            // 代入した全ての記事を表示
             'posts_per_page' => -1
           )
         );
@@ -83,6 +89,7 @@
     <div class="text-center pb-5">
       <h4 class="d-inline-block py-3 border-bottom border-info">人気記事の表示</h4>
     </div>
+        <!-- idを取得 -->
         <?php set_post_views(get_the_ID()); ?>
         <?php $popular_query = new WP_Query(
           array(

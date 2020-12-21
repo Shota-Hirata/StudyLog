@@ -11,6 +11,7 @@
               <div class="bg-white py-3 mb-5 text-center">
                 <!-- 日付 -->
                 <p><?php the_time('Y/n/j'); ?>
+                <!-- 更新があれば更新日を表示 -->
                 <?php if(get_the_modified_date("Y/n/j")): ?>
                   (更新日：<?php echo get_the_modified_date("Y/n/j"); ?>)
                 <?php endif; ?>
@@ -50,13 +51,19 @@
                   <?php the_content(); ?>
                   <!-- SNSシェアボタン -->
                   <?php get_template_part('parts-sns'); ?>
+                  <!-- comment.phpを呼び出す -->
                   <?php comments_template(); ?>
                   <p>投稿者
+                        <!-- 投稿者のTwitterのリンクを挿入 -->
                     <a href="<?php echo esc_url(get_the_author_meta('twitter')); ?>">
+                        <!-- 投稿者のニックネームを表示 -->
                     <?php echo esc_attr(get_the_author_meta('nickname')); ?>
                     </a>
                   </p>
+                  <!-- パンくずリストを表示 -->
                   <?php get_template_part('breadcrumb'); ?>
+                  <!-- 関連記事を表示 -->
+                  <?php get_template_part('related'); ?>
                 </div>
               </div>
           <?php endwhile; else: ?>

@@ -34,11 +34,12 @@
           </div>
         </div>
         <div class="bg-dark text-white text-center p-3">
+                                    <!-- 現在の年を出力 -->
           Copyright Shota Hirata <?php echo date("Y"); ?> All Right Reserved.
         </div>
       </footer>
     </main>
-    <!-- WordPressの決まり文句 -->
+    <!-- WordPressのスクリプトを呼び出す。bodyの最後に記述 -->
     <?php wp_footer(); ?>
   </body>
 </html>

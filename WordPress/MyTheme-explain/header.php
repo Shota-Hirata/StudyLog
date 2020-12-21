@@ -1,4 +1,5 @@
 <!doctype html>
+        <!-- 設定画面の言語選択で選んだ言語になる -->
 <html <?php language_attributes(); ?>>
   <head>
     <!-- Required meta tags -->
@@ -8,7 +9,7 @@
     <?php $mytheme_favicon = esc_url(get_option('mytheme_favicon_img')); ?>
     <link rel="icon" type="img/png" href="<?php echo $mytheme_favicon; ?>">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" type="text/css" />
-    <!-- WordPressの決まり文句 -->
+    <!-- WordPressのスクリプトを呼び出す。headの最後に記述 -->
     <?php wp_head(); ?>
   </head>
   <body>

@@ -89,11 +89,14 @@
           <?php endif; ?>
           <!-- ページネーション -->
             <!-- <div class="float-left pb-3">
+              前のページへのボタンを表示
               <?php previous_posts_link('<div class="d-inline-block border p-3 text-secondary">前のページ</div>'); ?>
             </div>
             <div class="float-right pb-3">
+              次のページへのボタンを表示
               <?php next_posts_link('<div class="d-inline-block border p-3 text-secondary">次のページ</div>'); ?>
             </div> -->
+                  <!-- ファンクションがあったらそれを実行 -->
             <?php if(function_exists("mytheme_pagenation")): ?>
               <?php mytheme_pagenation(); ?>
             <?php endif; ?>

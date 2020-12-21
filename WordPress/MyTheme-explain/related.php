@@ -1,7 +1,10 @@
 <!-- 関連記事 -->
   <?php
+  // カテゴリーを持っていたら
   if(has_category()){
+    // カテゴリーを全て取得
   	$category = get_the_category();
+    // カテゴリーを配列で取得
   	$categoryids = array();
   	foreach($category as $cat){
   		$categoryids = $cat->term_id;
@@ -9,9 +12,13 @@
   }
 
   $args = array(
+    // 何個関連記事を取得するか
   	'posts_per_page' => 8,
+    // 現在の記事を関連記事に入れない
   	'post__not_in' => array($post->ID),
+    // 配列で取得したカテゴリーを代入
   	'category__in' => $categoryids,
+    // 順番はランダムで表示させる
   	'orderby' => 'rand'
   );
    $related_query = new WP_Query($args);

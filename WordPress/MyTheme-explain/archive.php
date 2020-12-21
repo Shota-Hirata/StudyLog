@@ -27,7 +27,7 @@
                     「<?php echo the_time('Y年n月'); ?>」の記事
                   </h1>
                 <?php elseif(is_tax()): ?>
-                  <!-- 日付アーカイブ -->
+                  <!-- カスタムタクソノミーアーカイブ -->
                   <h1 class="h2">
                     「<?php single_term_title(); ?>」の記事
                   </h1>
