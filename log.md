@@ -819,6 +819,15 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/33a94d80e39ea30febe41e6831f731b5c748529f
                       [Twitter] https://twitter.com/qweblog/status/1341016924793147392
           
+## Day92 : December22 , 2020
+
+> - **Today's Progress**: Studied about Bootstrap
+>
+> - **Thoughts:**: I coudn't stydy a lot cause cought a cold.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/c0a92f32306560b4c4756ad0129072347f91525c
+                      [Twitter] https://twitter.com/qweblog/status/1341386604670152705
+
 --format--
 
 ## Day : December , 2020
