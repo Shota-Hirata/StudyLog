@@ -837,6 +837,14 @@
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/ca4b359342e9e136569e78e995b3813b837532f1
                       [Twitter] https://twitter.com/qweblog/status/1341746249288929281
 
+## Day94 : December24 , 2020
+
+> - **Today's Progress**: Studied about Bootstrap
+>
+> - **Thoughts:**: I'll finish studying about bootstrap for the time being.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/7f75134844e0cd56616647ddb29a21c82930390e
+                      [Twitter]　https://twitter.com/qweblog/status/1342149686166097920
 --format--
 
 ## Day : December , 2020
