@@ -845,6 +845,16 @@
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/7f75134844e0cd56616647ddb29a21c82930390e
                       [Twitter]　https://twitter.com/qweblog/status/1342149686166097920
+                      
+## Day95 : December25 , 2020
+
+> - **Today's Progress**: Studied about Bootstrap
+>
+> - **Thoughts:**: I can make almost all parts by bootstrap
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1342473477186408453
+
 --format--
 
 ## Day : December , 2020
