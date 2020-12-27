@@ -855,6 +855,25 @@
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1342473477186408453
 
+## Day96 : December26 , 2020
+
+> - **Today's Progress**: Studied about python
+>
+> - **Thoughts:**: I had event so I couldn't have studied a lot.
+>
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1342833497166102530
+
+## Day9 : December2 , 2020
+
+> - **Today's Progress**: Studied about python
+>
+> - **Thoughts:**: I had event so I studied by iPhone.
+
+> - **Link to work:** [Github]
+                      [Twitter] https://twitter.com/qweblog/status/1343228098712461315
+                      
+                      
 --format--
 
 ## Day : December , 2020
