@@ -130,4 +130,5 @@ $(function(){
 	 $('#dont').click(function(){
 	 	alert('押すなって言ったやん！');
 	 });
+
 });
