@@ -872,7 +872,16 @@
 
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1343228098712461315
-                      
+      
+## Day98 : December28 , 2020
+
+> - **Today's Progress**: Studied about jQuery
+>
+> - **Thoughts:**: I came up with an idea but I can't realize it yet.
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/d3e957d86423c51307b4346e9e71f0f5699b398c
+                      [Twitter] https://twitter.com/qweblog/status/1343593126334611456
+                
                       
 --format--
 
