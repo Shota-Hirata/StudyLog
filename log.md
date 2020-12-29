@@ -881,7 +881,16 @@
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/d3e957d86423c51307b4346e9e71f0f5699b398c
                       [Twitter] https://twitter.com/qweblog/status/1343593126334611456
-                
+           
+## Day99 : December29 , 2020
+
+> - **Today's Progress**: Studied about jQuery
+>
+> - **Thoughts:**: I made a product of Tokyo Hoteison
+>
+> - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/29c6f700ea37df8c030ee0c097ba04729410722b
+                      [Twitter] https://twitter.com/qweblog/status/1343979711458803712
+     
                       
 --format--
 
