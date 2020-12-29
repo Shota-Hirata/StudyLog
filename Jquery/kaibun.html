@@ -11,29 +11,61 @@
     <title>東京ホテイソンver回文作成ページ</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container mb-5">
     	<h1 class="text-center my-5 justify-contentn">東京ホテイソンver 回文作成ページ</h1>
-    		<form action="#" id="input_form" class="">
-    			<div class="form-group">
-    				<div class="col-md-9 col-sm-12">
-    					<input type="text" id="input_text" class="form-control" placeholder="ここにショーゴのボケを入力してください"/>
-    				</div>
-    				<div class="col-md-3 mt-sm-3">
-    					<input type="button" onclick="takeru()" class="form-control" value="ツッコむ">
-    				</div>
-    			</div>
-    		</form>
-    		<div id="tsukkomi"></div>
-    		<script language="javascript" type="text/javascript">
-    			function takeru() {
-    				var boke = document.forms.input_form.input_text.value;
-    					boke = "いぃ～や、" + boke.split("").reverse().join(""); + "!!";
-    				document.getElementById("tsukkomi").innnerHTML = boke;
-    			}
-    		</script>
+    		<p class="text-center text-md-left">ここにショーゴのボケを全てひらがなで入力してください</p>
+		<form id="input_form" class="">
+			<div class="row">
+				<div class="col-md-9 col-12">
+					<input type="text" id="input_text" class="form-control"/>
+				</div>
+				<div class="col-md-3 mt-3 mt-md-0">
+					<input type="button" onclick="takeru()" class="form-control bg-primary text-white submit" value="ツッコむ">
+				</div>
+			</div>
+		</form>
+    </div>
+    <div class="container mt-5">
+    	<div class="row">
+    		<p id="tsukkomi" class="lead text-center col-12"></p>
+    	</div>
+    	<div class="row">
+    		<button id="reset" class="btn btn-info col-4 offset-4 col-md-2 offset-md-5 mt-3 align-self-center" style="display: none">やり直す</button>
+    	</div>
+    </div>
+    <div class="container my-5">
+    	<h2 class="my-3 my-md-5 h5 text-center">元ネタを知らない方はまずこちらをご覧ください。</h2>
+    	<div class="embed-responsive embed-responsive-16by9">
+    	  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Brg094fwTnI" allowfullscreen></iframe>
+    	</div>
     </div>
 
     <!-- Optional JavaScript -->
+    <script language="javascript" type="text/javascript">
+    	function takeru() {
+    		var boke = document.forms.input_form.input_text.value;
+    			boke = "いぃ～や、" + boke.split("").reverse().join("") + "！";
+    		document.getElementById("tsukkomi").innerHTML = boke;
+    	}
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    	$(function(){
+
+    		$('.submit').click(function(){
+    			$('#reset').css('display','block');
+    		});
+
+    		$('#reset').click(function(){
+    			$('#tsukkomi').empty();
+    			$('#input_text').val('');
+    			$(this).css('display','none');
+    		});
+    	});
+
+    </script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
