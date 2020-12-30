@@ -67,7 +67,7 @@
 
 > - **Today's Progress**: Fixed css for responsible design. Finished coping Airbnb site.
 >
-> - **Thoughts:**: Too use long time to make site. I haven't enough skill yet and I have to study more more more
+> - **Thoughts:**: Too use long time to make site. I haven't enough skill yet and I have to study more more more.
 >
 > - **Link to work:** [Github]  https://github.com/Shota-Hirata/StudyLog/commit/35a7850b9ccb0f8f47f94d55cc7deb083fb24759
                       [Twitter] https://twitter.com/qweblog/status/1310917166812651521
@@ -742,7 +742,7 @@
 
 > - **Today's Progress**: Studied about WordPress
 >
-> - **Thoughts:**: I understood about template hierarchy
+> - **Thoughts:**: I understood about template hierarchy.
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/51781178e27b4d516f80099384df5a02f832b618
                       [Twitter] https://twitter.com/qweblog/status/1338142821920849922
@@ -850,7 +850,7 @@
 
 > - **Today's Progress**: Studied about Bootstrap
 >
-> - **Thoughts:**: I can make almost all parts by bootstrap
+> - **Thoughts:**: I can make almost all parts by bootstrap.
 >
 > - **Link to work:** [Github]
                       [Twitter] https://twitter.com/qweblog/status/1342473477186408453
@@ -886,19 +886,18 @@
 
 > - **Today's Progress**: Studied about jQuery
 >
-> - **Thoughts:**: I made a product of Tokyo Hoteison
+> - **Thoughts:**: I made a product of Tokyo Hoteison.
 >
 > - **Link to work:** [Github] https://github.com/Shota-Hirata/StudyLog/commit/29c6f700ea37df8c030ee0c097ba04729410722b
                       [Twitter] https://twitter.com/qweblog/status/1343979711458803712
      
-                      
---format--
+## Day100 : December30 , 2020
 
-## Day : December , 2020
-
-> - **Today's Progress**: 
+> - **Today's Progress**: Studied about PHP
 >
-> - **Thoughts:**:
+> - **Thoughts:**: Finally, I finished 100 days of code!
 >
 > - **Link to work:** [Github]
-                      [Twitter] 
+                      [Twitter] https://twitter.com/qweblog/status/1344294484054482947     
+                      
+Completed !!                
